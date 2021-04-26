@@ -28,20 +28,19 @@ pos_region = "region"
 third_col = indices.pop(pos_region)
 indices.insert(2, pos_region, third_col)
 
-# Merge 'indices' to 'weo'.
+# Merge 'indices' to 'weo' data.
 
 indices_econ = indices.merge(weo, on='iso3', how='inner', validate='1:1', indicator=True)
 
-# Drop '"Country_y"' and '"_merge"' columns.
+# Drop '"_merge"' columns.
 
-indices_econ = indices_econ.drop("Country_y", axis="columns")
 indices_econ = indices_econ.drop("_merge", axis="columns")
 
 # Print number of dropped records from joining the three data sets.
 
 print('\nDropped Records:', len(epi)-len(indices_econ))
                                                                                 
-# Set index to 'iso'.
+# Set index to 'iso3'.
 
 indices_econ.set_index('iso3', inplace = True)
 
