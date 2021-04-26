@@ -12,7 +12,7 @@ This script uses `pandas` module of Python. The script is aimed at:
 
 There are various input files in this script:
 
-1. World Economic Outlook data sets from the IMF webiste (3 files): ***status_raw.csv***, ***gdp_raw.csv***, and ***pop_raw.csv***. The ***status_raw.csv*** file contains information about the economic status of countries. They are classified as : ***Major Advanced Economy***, which are the G7 countries,***Advanced Economy***, and ***Emerging Market and Developing Economy***.
+1. World Economic Outlook data sets from the IMF webiste (3 files): ***status_raw.csv***, ***gdp_raw.csv***, and ***pop_raw.csv***. The ***status_raw.csv*** file contains information about the economic status of countries. They are classified as : ***Major Advanced Economy***, which are the G7 countries, ***Advanced Economy***, and ***Emerging Market and Developing Economy***.
 
 2. The mapping file ***mapping_wri_clean.csv***  generated under ***script1-wri_data*** folder.
 
