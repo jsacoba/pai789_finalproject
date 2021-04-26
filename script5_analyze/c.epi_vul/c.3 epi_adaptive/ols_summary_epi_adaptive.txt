@@ -3,8 +3,8 @@
 Dep. Variable:     Lack of Adaptive Capacities   R-squared:                       0.817
 Model:                                     OLS   Adj. R-squared:                  0.816
 Method:                          Least Squares   F-statistic:                     949.6
-Date:                         Sun, 25 Apr 2021   Prob (F-statistic):           4.09e-70
-Time:                                 13:24:17   Log-Likelihood:                -538.93
+Date:                         Mon, 26 Apr 2021   Prob (F-statistic):           4.09e-70
+Time:                                 12:52:35   Log-Likelihood:                -538.93
 No. Observations:                          166   AIC:                             1082.
 Df Residuals:                              164   BIC:                             1088.
 Df Model:                                    1                                         
@@ -15,7 +15,7 @@ Covariance Type:                           HC1
 const        110.4717      1.345     82.159      0.000     107.836     113.107
 EPI.new       -0.8324      0.027    -30.816      0.000      -0.885      -0.779
 ==============================================================================
-Omnibus:                        2.630   Durbin-Watson:                   1.776
+Omnibus:                        2.630   Durbin-Watson:                   2.069
 Prob(Omnibus):                  0.268   Jarque-Bera (JB):                2.451
 Skew:                          -0.298   Prob(JB):                        0.294
 Kurtosis:                       3.002   Cond. No.                         155.

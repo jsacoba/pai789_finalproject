@@ -22,7 +22,7 @@ pop_clean = pop_raw.loc[:192,['ISO', '2020']]
 
 gdp_clean.rename(columns = {'ISO': 'iso3', '2020': 'GDP'}, inplace = True)
 pop_clean.rename(columns = {'ISO': 'iso3','2020': 'Population'}, inplace = True)
-devstat_raw.rename(columns = {'status': 'Status'}, inplace = True)
+devstat_raw.rename(columns = {'status': 'Economic Development Status'}, inplace = True)
 
 # Join the 3 data sets above using the 'mapping' file.
 

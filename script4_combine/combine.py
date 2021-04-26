@@ -22,9 +22,9 @@ indices = wri.merge(epi, on='iso3', how='inner', validate='1:1', indicator=True)
 
 indices = indices.drop("_merge", axis="columns")
 
-# Rearrange "region" column's position (as third column). 
+# Rearrange "Economic Region" column's position (as third column). 
 
-pos_region = "region"
+pos_region = "Economic Region"
 third_col = indices.pop(pos_region)
 indices.insert(2, pos_region, third_col)
 

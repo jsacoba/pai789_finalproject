@@ -30,9 +30,9 @@ print(code)
 
 epi_clean = epi_raw.loc[:181, select]
 
-# Rename 'iso' column to 'iso3'.
+# Rename 'iso' column to 'iso3' and 'region' colum to 'Economic Region'.
 
-epi_clean.rename(columns={"iso":"iso3"}, inplace=True)
+epi_clean.rename(columns={"iso": 'iso3', 'region': 'Economic Region'}, inplace=True)
 
 # Count and print number of filtered observations.
 

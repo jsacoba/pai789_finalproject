@@ -7,7 +7,7 @@ import statsmodels.api as sm
 
 # Read input file.
 
-plots_data = pd.read_csv('plots_data.csv')
+plots_data = pd.read_csv('combined_clean.csv')
 
 # Testing Correlation between EPI and Susceptibility.
 
@@ -55,11 +55,11 @@ region_scatter.set_title("EPI vs. Susceptibility per Economic Region")
 fig.tight_layout()
 fig.savefig('scatter_region.png', dpi=300)
 
-# b. Correlation between  EPI and Susceptibility per Economic Status.
+# b. Correlation between  EPI and Susceptibility per Economic Development Status.
 
 fig, ax1 = plt.subplots()
 status_scatter =sns.scatterplot(x="EPI.new", y="Susceptibility", 
-                         hue='Economic Status', data=plots_data, s=15,
+                         hue='Economic Development Status', data=plots_data, s=15,
                          palette="muted")
 sns.set_style('darkgrid')
 status_scatter.set(xlabel='Environmental Performace Index', ylabel='Susceptibility')
