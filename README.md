@@ -9,7 +9,7 @@
 
 In 2020, the Bündnis Entwicklung Hilft, in collaboration with Ruhr University Bochum – Institute for International Law of Peace and Armed Conflict (IFHV) ranked 181 countries according to their risk of becoming the victim of a disaster resulting from an extreme natural event. Topping the list is the Pacific island of Vanuatu with a World Risk Index (WRI) of 49.79, while Qatar has the lowest risk of 0.31.
 
-As defined by the report, the WRI is the interaction of the countries' exposure and vulnerability. Exposure pertains to the risk faced by various entities such as communities, resources, infrastructure, production, goods, services or ecosystems to physical hazards such as earthquakes, storms, floods, droughts, tsunamis and sea-level rise (Welle, Torsten & Birkmann, Joern, 2015).  On the other hand, vulnerability refers to the mean of the following three sub-components:
+As defined by the report, the WRI is the interaction of a country's risk exposure and vulnerability. Exposure pertains to the risk faced by various entities such as communities, resources, infrastructure, production, goods, services or ecosystems to physical hazards such as earthquakes, storms, floods, droughts, tsunamis and sea-level rise (Welle, Torsten & Birkmann, Joern, 2015).  On the other hand, vulnerability refers to the mean of the following three sub-components:
 
 1.	Susceptibility. This pertains to societal framework conditions and structural characteristics that indicates the likelihood of suffering from harm in an extreme natural event.
 
