@@ -30,7 +30,7 @@ There are various input data in this script:
 
 1. Script named ***join_wri16to20.py***;
 
-2. Output file with name ***wri16to20_clean.csv*** that consolidates WRIs for five years. To reiterate, take note that the WRI Reports contain different number of countries. This output file contains WRIs for countries that have been consistently included in the report for five years. After joining the input files, the output file contains 170 countries.; and
+2. Output file with name ***wri16to20_clean.csv*** that consolidates WRIs for five years. To reiterate, take note that the WRI Reports contain different number of countries. This output file contains WRIs for countries that have been consistently included in the report for five years. After joining the input files, the output file contains 170 countries; and
 
 3. Based from the consolidated records, a mapping file called ***mapping_wri_clean.csv*** is made to serve as master file in joining ***wri16to20_clean.csv*** with other variables from other data sets.
 

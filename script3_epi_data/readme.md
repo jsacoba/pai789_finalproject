@@ -1,8 +1,8 @@
-# Script No. 3: Cleaning the Environmental Performance Index (EPI) of Countries
+# Script No. 3: Cleaning and Processing Data: Environmental Performance Index (EPI) of Countries
 
 ## A. Summary
 
-This script uses `pandas` module of Python. The script is aimed at cleaning the data set containing information on the Environmental Performance Index of countries.
+This script uses `pandas` module of `Python`. The script is aimed at cleaning the data set containing information on the Environmental Performance Index of 180 countries included in the report.
 
 ## B. Input Data
 
@@ -14,11 +14,11 @@ There is only one input file in this script:
 
 1. A script called `epi.py`; and
 
-2. A cleaned file called `epi_clean.csv`.
+2. A cleaned file called `epi_clean.csv` with records of 180 countries.
 
 ## D. Instructions
 
-1. Import `pandas` module as pd.
+1. Import `pandas` module as `pd`.
 
 2. Assign `epi_raw` to the result of reading `epi_clean.csv` using  `pd.read_csv` call.
 

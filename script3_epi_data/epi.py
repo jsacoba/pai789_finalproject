@@ -39,7 +39,7 @@ epi_clean.rename(columns={"iso":"iso3"}, inplace=True)
 filtered = len(epi_clean)
 print('\nFiltered number of records:', filtered)
 
-# Set 'iso' as index.
+# Set 'iso3 as index.
 
 epi_clean.set_index('iso3', inplace = True)
 

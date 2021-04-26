@@ -2,13 +2,11 @@
 
 import pandas as pd
 
-
 # Read files by calling pd.read_csv function.
 
 devstat_raw = pd.read_csv('status_raw.csv', encoding='cp1252')
 gdp_raw = pd.read_csv('gdp_raw.csv', encoding='cp1252')
 pop_raw = pd.read_csv('pop_raw.csv', encoding='cp1252')
-mapping = pd.read_csv('mapping_wri_clean.csv')
 
 # For 'gdp_raw' and 'pop_raw', read figures as float in the '"2020"' column.
 
@@ -26,18 +24,9 @@ gdp_clean.rename(columns = {'ISO': 'iso3', '2020': 'GDP'}, inplace = True)
 pop_clean.rename(columns = {'ISO': 'iso3','2020': 'Population'}, inplace = True)
 devstat_raw.rename(columns = {'status': 'Status'}, inplace = True)
 
-# Set 'iso3' as index for 'devstat_raw', 'pop_clean', and 'gdp_clean'.
-
-#devstat_raw.set_index('iso3', inplace=True)
-#pop_clean.set_index('iso3', inplace=True)
-#gdp_clean.set_index('iso3', inplace=True)
-
 # Join the 3 data sets above using the 'mapping' file.
 
-weo_data_clean = pd.merge(
-    mapping, devstat_raw).merge(
-        gdp_clean, on = 'iso3', how='inner').merge(
-            pop_clean, on = 'iso3', how='inner')
+weo_data_clean = pd.merge(devstat_raw, gdp_clean).merge(pop_clean, on = 'iso3', how='inner')
 
 # Set 'iso3' as index.
 

@@ -20,7 +20,7 @@ There are various input files in this script:
 
 1. A script called ***join_weo_clean.py***; and
 
-2. A joined file called ***weo_data_clean.csv*** that contains the following columns: `iso3`, `Country`, `Status`, `GDP`, and `Population`.
+2. A joined file called ***weo_data_clean.csv*** that contains the following columns: `iso3`, `Country`, `Status`, `GDP`, and `Population`. After joining the input files, the output file contains 193 countries.
 
 ## D. Instructions
 
@@ -40,7 +40,7 @@ There are various input files in this script:
 
 5. Rename the `"ISO"` and `"2020"` columns from `gdp_raw` and `pop_raw` by calling `.rename()` from the each data frames using the following arguments: 1.) for `gdp_raw`, use `(columns = {'ISO': 'iso3', '2020': 'GDP'}, inplace = True)`; and 2.) for `pop_raw`, use the argument `(columns = {'ISO': 'iso3', '2020': 'Population'}, inplace = True)`. Finally, rename the `status` column of `devstat_raw`. Use the argument `(columns = {'status': 'Status'}, inplace = True)`.
 
-6. Assign `weo_data_clean` to the result of joining the 3 data sets above onto `mapping` file one after the other using the `.merge()` call with arguments `on="iso3"` and `how='inner'`.
+6. Assign `weo_data_clean` to the result of joining the 3 data sets above using the `.merge()` call with arguments `on="iso3"` and `how='inner'`. Start calling `pd.merge()` with arguments `devstat_raw` and `gdp_clean`. Finally, call `.merge()` at the end of the first join, with arguments `on="iso3"` and `how='inner'`. 
 
 7. Set the index to `iso3` by calling `.set_index()` to `weo_data_clean`, with additional argument `inplace=True`.
 
