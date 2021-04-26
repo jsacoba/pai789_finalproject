@@ -24,7 +24,7 @@ There are various input files in this script:
 
 ## D. Instructions
 
-1. Import `pandas` module as pd.
+1. Import `pandas` module as `pd`.
 
 2. Read input files by calling `pd.read_csv()` function. Assign the reading of the files to the following names: `devstat_raw` for reading `'status_raw.csv'`; `gdp_raw` for reading `'gdp_raw.csv'`; and `pop_raw` for reading `'pop_raw.csv'`. In addition to the file name as argument, add `encoding = 'cp1252'`. Finally, assign `mapping` for reading `'mapping_wri_clean.csv'` ***without*** the need to put the `encoding = 'cp1252'` argument on it.
 
