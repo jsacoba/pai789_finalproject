@@ -17,7 +17,7 @@ As defined by the report, the WRI is the interaction of the countries' exposure 
 
 3.	Adaptation. These include measures and strategies dealing with and attempting to address the negative impacts of natural hazards and climate change in the future. Adaptation, unlike coping, is understood as a long-term process that also includes structural changes.
 
-![](https://github.com/jsacoba/pai789_finalproject/blob/main/script6_riskmap_world/wri_components.PNG)
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/wri_components.PNG)
 Source: The 2020 WorldRiskIndex Report
 
 ### The Environmental Performance Index
