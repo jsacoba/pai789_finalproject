@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   2020   R-squared:                       0.228
+Model:                            OLS   Adj. R-squared:                  0.223
+Method:                 Least Squares   F-statistic:                     60.72
+Date:                Sun, 25 Apr 2021   Prob (F-statistic):           7.14e-13
+Time:                        13:07:14   Log-Likelihood:                -512.53
+No. Observations:                 166   AIC:                             1029.
+Df Residuals:                     164   BIC:                             1035.
+Df Model:                           1                                         
+Covariance Type:                  HC1                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         16.4110      1.403     11.699      0.000      13.662      19.160
+EPI.new       -0.1826      0.023     -7.792      0.000      -0.229      -0.137
+==============================================================================
+Omnibus:                      145.084   Durbin-Watson:                   0.377
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2321.094
+Skew:                           3.135   Prob(JB):                         0.00
+Kurtosis:                      20.212   Cond. No.                         155.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
