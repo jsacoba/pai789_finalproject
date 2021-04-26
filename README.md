@@ -1,3 +1,6 @@
+
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/disaster_ph.PNG)
+
 # Linking Disaster Risk and Environmental Management
 
 ## Background
@@ -21,7 +24,7 @@ Source: The 2020 WorldRiskIndex Report
 
 The 2020 Environmental Performance Index (EPI) report ranked 180 countries according to their performance in addressing sustainability issues and environmental challenges that they face. It includes 32 performance metrics measures under 11 issue categories. The interaction of these indicator variables are summed up in two main EPI components: environmental health and ecosystem vitality. The report puts: "These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future."
 
-![](https://github.com/jsacoba/pai789_finalproject/blob/main/script6_riskmap_world/epi_components.PNG)
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/epi_components.PNG)
 Source: The 2020 EPI Report
 
 
