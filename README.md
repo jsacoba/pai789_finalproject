@@ -10,5 +10,7 @@ As defined by the report, the WRI is defined as the interaction of Exposure and 
 
 3.	Adaptation includes measures and strategies dealing with and attempting to address the negative impacts of natural hazards and climate change in the future. Adaptation, unlike coping, is understood as a long-term process that also includes structural changes.
 
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/script6_riskmap_world/wri_components.PNG)
+
 The Philippines by virtue of its geographic circumstances is highly prone to natural disasters, such as earthquakes, volcanic eruptions, tropical cyclones and floods, making it one of the most disaster prone countries in the world.
 
