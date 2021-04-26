@@ -18,15 +18,25 @@ As defined by the report, the WRI is the interaction of the countries' exposure 
 
 ### The Environmental Performance Index
 
-The 2020 Environmental Performance Index (EPI) report ranked 180 countries according 
+The 2020 Environmental Performance Index (EPI) report ranked 180 countries according to their performance in addressing sustainability issues and environmental challenges that they face. It includes 32 performance metrics measures under 11 issue categories. The interaction of these indicator variables are summed up in two main EPI components: environmental health and ecosystem vitality. The reports puts "These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future."
 
-The 2020 Environmental Performance Index (EPI) provides a data-driven summary of the state of sustainability around the world. Using 32 performance indicators across 11 issue categories, the EPI ranks 180 countries on environmental health and ecosystem vitality. These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future.
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/script6_riskmap_world/epi_components.PNG)
 
-Overall EPI rankings indicate which countries are best addressing the environmental challenges that every nation faces. 
+## Objectives
 
+This analysis seeks to provide data-driven analysis of the relationship between sustainable environmental practices and natural disaster risk and answer the following questions:
 
+1. Is there a relationship between EPI and WRI? If there is, are they positively or negatively correlated?;
 
-References:
+2. What does EPI tell about the exposure and vulnerability of countries to natural disasters?; and
+
+2. What does the location and economic development status tell about their WRI and EPI?
+
+## Softwares Used
+
+This analysis used `Python` and QGIS in data cleaning, processing and visualization. 
+
+## References:
 
 World Risk Report 2020. Bündnis Entwicklung Hilft, Ruhr University Bochum – Institute for International Law of Peace and Conflict 2020. 
 

@@ -24,10 +24,13 @@ There is only one input file in this script:
 
 3. To keep track of data loss in filtering records, count and print initial number of observations by assigning `initial` to the result of calling `len` to `epi_raw`. Then print the result with a description.
 
-4. Select specific columns to be used in the analysis. Build a list called  `select` containing  the following column names: `'iso'`, `'region'`, `'EPI.new'`, `'HLT.new'`, `'AIR.new'`, `'H2O.new'`,
-`'HMT.new'`, `'WMG.new'`, `'ECO.new'`, `'BDH.new'`,`'ECS.new'`, `'FSH.new'`, `'CCH.new'`, `'APE.new'`, `AGR.new'`, and `'WRS.new'`.
+4. Select specific columns to be used in the analysis. Build a list called  `select` containing  the following column names: `'iso'`, `'region'`, `'EPI.new'`, `'HLT.new'`, `'AIR.new'`, `'H2O.new'`,`'HMT.new'`, `'WMG.new'`, `'ECO.new'`, `'BDH.new'`,`'ECS.new'`, `'FSH.new'`, `'CCH.new'`, `'APE.new'`, `AGR.new'`, and `'WRS.new'`.
 
 5. EPI is basically a function of Environemntal Health and Ecosystem Vitality policy objectives. Each objectives have sub-issue categories. There are more sub-categories, but we will keep our analysis on the upper layer of classification. There are more sub-categories (indicators) for each Issue Category, but we will keep our analysis on the upper layer of classification. To obtain understanding on these variables, assign  `code` to the result of reading `'epi2020_indicators.csv'` file. Then, print `code`. It will print a table describing all indicator variables in the original EPI data set.
+
+For reference, the following are the indicator variables used in the 2020 EPI report:
+
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/script6_riskmap_world/epi_indicators.png)
 
 6. Build new data frame using the selected columns by assigning `epi_clean` to the result of calling `.loc` to `epi_raw` using the arguments `[:181, select]`. :181 pertains to the number of row where the last record is and reads to the first row in the data frame.
 
