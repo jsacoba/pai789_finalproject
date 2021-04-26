@@ -42,13 +42,13 @@ wri16 = wri16.merge(map_alpha16, on='Country', how='left')
 
 # Rename 'WorldRiskIndex' column.
 
-wri20.rename(columns={'WorldRiskIndex' : 'WRI_2020'}, inplace=True)
-wri19.rename(columns={'WorldRiskIndex' : 'WRI_2019'}, inplace=True)
-wri18.rename(columns={'WorldRiskIndex' : 'WRI_2018'}, inplace=True)
-wri17.rename(columns={'WorldRiskIndex' : 'WRI_2017'}, inplace=True)
-wri16.rename(columns={'WorldRiskIndex' : 'WRI_2016'}, inplace=True)
+wri20.rename(columns={'WorldRiskIndex' : '2020'}, inplace=True)
+wri19.rename(columns={'WorldRiskIndex' : '2019'}, inplace=True)
+wri18.rename(columns={'WorldRiskIndex' : '2018'}, inplace=True)
+wri17.rename(columns={'WorldRiskIndex' : '2017'}, inplace=True)
+wri16.rename(columns={'WorldRiskIndex' : '2016'}, inplace=True)
 
-# Set the column 'iso' as index.
+# Set the column 'iso3' as index.
 
 wri20.set_index('iso3', inplace=True)
 wri19.set_index('iso3', inplace=True)
@@ -66,7 +66,7 @@ wri16.drop(['Country'], inplace = True, axis=1)
 # Count number of countries in the 2020 WRI Report.
 
 count_20 = len(wri20)
-print('\nNumber of Countries in 2020 WRI Report:', count_20)
+print('\nNumber of Countries in the 2020 WRI Report:', count_20)
 
 # Join the data from 2020 to 2016 for countries with complete records only for 5 years.
 
@@ -81,11 +81,11 @@ print('\nNumber of Records Dropped:', count_20 - count_final, '\n')
 # Set conditions for risk description numerical scale.
           
 conditions = [
-    (wri16_to_20['WRI_2020'] >= 0.31) & (wri16_to_20['WRI_2020'] <= 3.29),
-    (wri16_to_20['WRI_2020'] >= 3.30) & (wri16_to_20['WRI_2020'] <= 5.67),
-    (wri16_to_20['WRI_2020'] >= 5.68) & (wri16_to_20['WRI_2020'] <= 7.58),
-    (wri16_to_20['WRI_2020'] >= 7.59) & (wri16_to_20['WRI_2020'] <= 10.75),
-    (wri16_to_20['WRI_2020'] >= 10.76) & (wri16_to_20['WRI_2020'] <= 49.74)
+    (wri16_to_20['2020'] >= 0.31) & (wri16_to_20['2020'] <= 3.29),
+    (wri16_to_20['2020'] >= 3.30) & (wri16_to_20['2020'] <= 5.67),
+    (wri16_to_20['2020'] >= 5.68) & (wri16_to_20['2020'] <= 7.58),
+    (wri16_to_20['2020'] >= 7.59) & (wri16_to_20['2020'] <= 10.75),
+    (wri16_to_20['2020'] >= 10.76) & (wri16_to_20['2020'] <= 49.74)
     ]
 
 # Set descriptive values for each numerical scale.
@@ -94,7 +94,7 @@ values = ['Very Low', 'Low', 'Medium', 'High', 'Very High']
 
 # Assign risk description to the 'WRI' of each countires.
 
-wri16_to_20['risk_desc_2020'] = np.select(conditions, values)
+wri16_to_20['Risk Description'] = np.select(conditions, values)
 
 # Rearrange columns.
 

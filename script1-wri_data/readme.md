@@ -28,15 +28,15 @@ There are various input data in this script:
 
 2. Mapping files (5 files): `iso16_map.csv`, `iso17_map.csv`, `iso18_map.csv`, `iso19_map.csv` and `iso20_map.csv`.
 
-   There were inconsistencies in naming the countries in the WRI reports from 2016 to 2020. Mapping files were created to facilitate joining rankings for five years. The mapping files contain the countries 'as named' in each report year, and the standard 3-letter `iso` code for each country.
+   There were inconsistencies in naming the countries in the WRI reports from 2016 to 2020. Mapping files were created to facilitate joining rankings of countries that have been included in the WorldRiskIndex Report for five years. The mapping files contain the countries 'as named' in each report year, and the 3-letter `iso` code for each country.
 
 ## C. Deliverables
 
-1. Script named `join_wri16to20.py`;
+1. Script named ***join_wri16to20.py***;
 
-2. Output file with name `wri16to20_clean.csv` that consolidates WRIs for five years. Take note that the WRI Reports contain different number of countries. This output file contains WRIs for countries that have been consistently included in the report for five years. After joining the input files, the output file contains 170 countries.; and
+2. Output file with name ***wri16to20_clean.csv*** that consolidates WRIs for five years. To reiterate, take note that the WRI Reports contain different number of countries. This output file contains WRIs for countries that have been consistently included in the report for five years. After joining the input files, the output file contains 170 countries.; and
 
-3. Based from the consolidated records, a mapping file called `mapping_wri_clean.csv` is made to serve as master file in joining `wri16to20_clean.csv` with other variables from other data sets.
+3. Based from the consolidated records, a mapping file called ***mapping_wri_clean.csv*** is made to serve as master file in joining ***wri16to20_clean.csv*** with other variables from other data sets.
 
 ## D. Instructions
 
@@ -56,9 +56,9 @@ There are various input data in this script:
    
 5. Map the 3-letter `iso` code to each `wri` file to standardize `key` for  joining the WRI data from 2016 to 2020. Do it by calling `.merge`  function to each joins and assign each joins to a file name of format `wriyear`. For example:
 
-      `wriyear = wri_20(map_alpha20, on="Country", how = "left")`
+      `wri20 = wri20.merge(map_alpha20, on='Country', how='left')`
           
-6. Rename the `WorldRiskIndex` column in each `wri` data set by calling `.rename` function in each file with arguments `columns= {"WorldRiskIndex" : "WRI_2020"}`, and `inplace=True`. Do this in every `wri` file.
+6. Rename the `WorldRiskIndex` column in each `wri` data set by calling `.rename` function in each file with arguments `columns= {"WorldRiskIndex" : "2020"}`, and `inplace=True`. Do this in every `wri` file.
 
 7. In each `wri` file, set the `iso` column as `index`  by calling `.set_index` in the file with the arguments `"iso3"` and `inplace=True`.
 
@@ -74,19 +74,19 @@ There are various input data in this script:
 
 11. Now let us assign risk description for each WRI in 2020. Start by setting the conditions for risk description scale from the WRI Report. Build a list called `conditions` containing arguments for range of values. Set up as follows:
 
-      `[(wri16_to_20["WRI_2020"] >= 0.31) & (wri16_to_20["WRI_2020"] <= 3.29),`
+      `[(wri16_to_20["2020"] >= 0.31) & (wri16_to_20["2020"] <= 3.29),`
 
-      `(wri16_to_20["WRI_2020"] >= 3.30) & (wri16_to_20["WRI_2020"] <= 5.67),`
+      `(wri16_to_20["2020"] >= 3.30) & (wri16_to_20["2020"] <= 5.67),`
 
-      `(wri16_to_20["WRI_2020"] >= 5.68) & (wri16_to_20["WRI_2020"] <= 7.58),`
+      `(wri16_to_20["2020"] >= 5.68) & (wri16_to_20["2020"] <= 7.58),`
 
-      `(wri16_to_20["WRI_2020"] >= 7.59) & (wri16_to_20["WRI_2020"] <= 10.75),`
+      `(wri16_to_20["2020"] >= 7.59) & (wri16_to_20["2020"] <= 10.75),`
       
-      `(wri16_to_20["WRI_2020"] >= 10.76) & (wri16_to_20["WRI_2020"] <= 49.74)]`
+      `(wri16_to_20["2020"] >= 10.76) & (wri16_to_20["2020"] <= 49.74)]`
       
 12. Then, build a list of qualitative description of the risk range of values. Set `'values'` to a list of string: `"Very Low"`, `"Low"`, `"Medium"`, `"High"`, `"Very High"`.
 
-13. Assign risk description to the 'WRI' of each countries by adding a new column called `"risk_desc_2020"` to `wri16_to_20` by calling `np.select` with arguments `conditions` and `values`.
+13. Assign risk description to the 'WRI' of each countries by adding a new column called `"Risk Description"` to `wri16_to_20` by calling `np.select` with arguments `conditions` and `values`.
 
 14. Now let us rearrange the columns. Do it by assigning `wri16_to_20` to the result of calling the `columns` of `wri16_to_20` with a list of the column locations that  we need to retain. Use the argument `[0,11,1,2,3,4,5,6,7,8,9,10]`.
 
