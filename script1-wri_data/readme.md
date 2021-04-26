@@ -12,9 +12,7 @@ This script uses `pandas` and `numpy` modules of Python. The script is aimed at:
 
 There are various input data in this script:
 
-1. WRI files (5 files): `wri2016_raw.csv`, `wri2017_raw.csv`, `wri2018_raw.csv`, `wri2019_raw.csv` and `wri2020_raw.csv`.
-
-   These were extracted from the 'Appendix' portion of the World Risk Index reports from 2016 to 2020. Each report contains different number of countries ranked:
+1. WRI files (5 files): `wri2016_raw.csv`, `wri2017_raw.csv`, `wri2018_raw.csv`, `wri2019_raw.csv` and `wri2020_raw.csv`.These were extracted from the 'Appendix' portion of the World Risk Index reports from 2016 to 2020. Each report contains different number of countries ranked:
 
       `wri2016_raw.csv` - 171 countries
 
@@ -26,9 +24,7 @@ There are various input data in this script:
 
       `wri2020_raw.csv` - 181 countries
 
-2. Mapping files (5 files): `iso16_map.csv`, `iso17_map.csv`, `iso18_map.csv`, `iso19_map.csv` and `iso20_map.csv`.
-
-   There were inconsistencies in naming the countries in the WRI reports from 2016 to 2020. Mapping files were created to facilitate joining rankings of countries that have been included in the WorldRiskIndex Report for five years. The mapping files contain the countries 'as named' in each report year, and the 3-letter `iso` code for each country.
+2. Mapping files (5 files): `iso16_map.csv`, `iso17_map.csv`, `iso18_map.csv`, `iso19_map.csv` and `iso20_map.csv`. There were inconsistencies in naming the countries in the WRI reports from 2016 to 2020. Mapping files were created to facilitate joining rankings of countries that have been included in the WorldRiskIndex Report for five years. The mapping files contain the countries 'as named' in each report year, and the 3-letter `iso` code for each country.
 
 ## C. Deliverables
 
