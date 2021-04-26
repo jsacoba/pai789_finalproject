@@ -20,24 +20,24 @@ There is only one input file in this script:
 
 1. Import `pandas` module as `pd`.
 
-2. Assign `epi_raw` to the result of reading `epi_clean.csv` using  `pd.read_csv` call.
+2. Assign `epi_raw` to the result of reading `'epi_clean.csv'` using  `pd.read_csv()` call.
 
-3. To keep track of data loss in filtering records, count and print initial number of observations by assigning `initial` to the result of calling `len` to `epi_raw`. Then print the result with a description.
+3. To keep track of data loss in filtering records, count and print initial number of observations by assigning `initial` to the result of calling `len()` to `epi_raw`. Then print the result with a description.
 
 4. Select specific columns to be used in the analysis. Build a list called  `select` containing  the following column names: `'iso'`, `'region'`, `'EPI.new'`, `'HLT.new'`, `'AIR.new'`, `'H2O.new'`,`'HMT.new'`, `'WMG.new'`, `'ECO.new'`, `'BDH.new'`,`'ECS.new'`, `'FSH.new'`, `'CCH.new'`, `'APE.new'`, `AGR.new'`, and `'WRS.new'`.
 
-5. EPI is basically a function of Environemntal Health and Ecosystem Vitality policy objectives. Each objectives have sub-issue categories. There are more sub-categories, but we will keep our analysis on the upper layer of classification. There are more sub-categories (indicators) for each Issue Category, but we will keep our analysis on the upper layer of classification. To obtain understanding on these variables, assign  `code` to the result of reading `'epi2020_indicators.csv'` file. Then, print `code`. It will print a table describing all indicator variables in the original EPI data set.
+5. EPI is basically a function of Environemntal Health and Ecosystem Vitality policy objectives. Each objectives have sub-issue categories. There are more sub-categories, but we will keep our analysis on the upper layer of classification. There are more sub-categories (indicators) for each Issue Category, but we will keep our analysis on the upper layer of indicator variables. To obtain understanding on these variables, assign `code` to the result of reading `'epi2020_indicators.csv'` file. Then, print `code`. It will print a table describing all indicator variables in the original EPI data set.
 
 For reference, the following are the indicator variables used in the 2020 EPI report:
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script6_riskmap_world/epi_indicators.png)
 
-6. Build new data frame using the selected columns by assigning `epi_clean` to the result of calling `.loc` to `epi_raw` using the arguments `[:181, select]`. :181 pertains to the number of row where the last record is and reads to the first row in the data frame.
+6. Build new data frame using the selected columns by assigning `epi_clean` to the result of calling `.loc()` to `epi_raw` using the arguments `[:181, select]`. :181 pertains to the number of row where the last record is located and reads from the first row in the data frame.
 
-7. Rename `iso` to `iso3` to standardize join key in the next scripts. Use the `.rename` call to `epi_clean` with aruments `columns={"iso":"iso3"}` and , `inplace=True`.
+7. Rename `iso` to `iso3` to standardize join key in the next scripts. Use the `.rename()` call to `epi_clean` with aruments `columns={"iso":"iso3"}` and, `inplace=True`.
 
-8. Count and print number of filtered observations. Assign `filtered` to the result of calling `len` on `epi_clean`. Print `filtered` with appropriate description.
+8. Count and print number of filtered observations. Assign `filtered` to the result of calling `len()` on `epi_clean`. Print `filtered` with appropriate description.
 
-9. Set 'iso' as index by calling `set_index` to `epi_clean` using `'iso3'` and `inplace = True` as argument.
+9. Set `'iso3'` as index by calling `set_index()` to `epi_clean` using `'iso3'` and `inplace = True` as arguments.
 
-10. Save `epi_clean` as 'epi_clean.csv'.
+10. Save `epi_clean` as `'epi_clean.csv'` by calling `.to_csv()` to `epi_clean`.
