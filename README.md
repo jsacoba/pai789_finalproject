@@ -4,15 +4,17 @@
 
 ### The World Risk Index
 
-In 2020, the Bündnis Entwicklung Hilft in collaboration with Ruhr University Bochum – Institute for International Law of Peace and Armed Conflict (IFHV) ranked 181 countries according to their risk (World Risk Index or WRI) of becoming the victim of a disaster resulting from an extreme natural event. Topping the list is the Pacific island of Vanuatu which regitered a risk index of 49.79, while Qatar has the lowest risk of 0.31.
+In 2020, the Bündnis Entwicklung Hilft, in collaboration with Ruhr University Bochum – Institute for International Law of Peace and Armed Conflict (IFHV) ranked 181 countries according to their risk of becoming the victim of a disaster resulting from an extreme natural event. Topping the list is the Pacific island of Vanuatu with a World Risk Index (WRI) of 49.79, while Qatar has the lowest risk of 0.31.
 
-As defined by the report, the WRI is the interaction of the countries' exposure and vulnerability. Exposure pertains to the risk faced by various entities such as communities, resources, infrastructure, production, goods, services or ecosystems to physical hazards such as earthquakes, storms, floods, droughts, tsunamis and sea-level rise (Welle, Torsten & Birkmann, Joern, 2015).  Vulnerability refers to the mean of the following three sub-components:
+As defined by the report, the WRI is the interaction of the countries' exposure and vulnerability. Exposure pertains to the risk faced by various entities such as communities, resources, infrastructure, production, goods, services or ecosystems to physical hazards such as earthquakes, storms, floods, droughts, tsunamis and sea-level rise (Welle, Torsten & Birkmann, Joern, 2015).  On the other hand, vulnerability refers to the mean of the following three sub-components:
 
-1.	Susceptibility-describes the structural characteristics and framework conditions of a society and indicates the likelihood of suffering from harm in an extreme natural event.
+1.	Susceptibility. This pertains to societal framework conditions and structural characteristics that predicates the likelihood of 
 
-2.	Coping-comprises various abilities of societies to be able to minimize negative impacts of natural hazards and climate change through direct action and the resources available.
+This describes the structural characteristics and framework conditions of a society and indicates the likelihood of suffering from harm in an extreme natural event.
 
-3.	Adaptation includes measures and strategies dealing with and attempting to address the negative impacts of natural hazards and climate change in the future. Adaptation, unlike coping, is understood as a long-term process that also includes structural changes.
+2.	Coping Capacities. These pertain to various abilities of societies to be able to minimize negative impacts of natural hazards and climate change through direct action and the resources available.
+
+3.	Adaptation Capacities. These include measures and strategies dealing with and attempting to address the negative impacts of natural hazards and climate change in the future. Adaptation, unlike coping, is understood as a long-term process that also includes structural changes.
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script6_riskmap_world/wri_components.PNG)
 
@@ -32,7 +34,7 @@ This analysis seeks to provide data-driven analysis of the relationship between 
 
 2. What does the location and economic development status tell about their WRI and EPI?
 
-## Softwares Used
+## Data Handling and Processing
 
 This analysis used `Python` and QGIS in data cleaning, processing and visualization. 
 
