@@ -2,7 +2,7 @@
 
 ## A. Summary
 
-This script uses `pandas` and `numpy` modules of Python. The script is aimed at:
+This script uses `pandas` and `numpy` modules of `Python`. The script is aimed at:
 
 1. Creating a master file by joining rankings of countries that were consistently included in the WRI Report from 2016 to 2020; and
 
