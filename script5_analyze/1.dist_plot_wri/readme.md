@@ -26,19 +26,19 @@ There is only one input data in this script, which is the master file we generat
 
 3. Plot a 'World Risk Index' density plot grouped by `'Economic Development Status'`.
 
-    1. Start by assigning `fig, ax1` to `plt.subplots()`;
+1. Start by assigning `fig, ax1` to `plt.subplots()`;
 
-    2. Set grid color by calling `sns.set_style('darkgrid')`;
+2. Set grid color by calling `sns.set_style('darkgrid')`;
 
-    3. Call kernel density estimate (KDE) plot as `sns.kdeplot()` with arguments `data=plots_data`, `shade=True`, `ax=ax1`, `x="2020"`, and `hue = "Economic Development Status"`;
+3. Call kernel density estimate (KDE) plot as `sns.kdeplot()` with arguments `data=plots_data`, `shade=True`, `ax=ax1`, `x="2020"`, and `hue = "Economic Development Status"`;
 
-    4. Plot a vertical red dotted line at x =0. Do it by calling `ax1.axvline()` with arguments `linewidth=2`, `color='r'`, and `linestyle="dotted")`;
+4. Plot a vertical red dotted line at x =0. Do it by calling `ax1.axvline()` with arguments `linewidth=2`, `color='r'`, and `linestyle="dotted")`;
 
-    5. Set x-axis label to `"World Risk Index"`;
+5. Set x-axis label to `"World Risk Index"`;
 
-    6. Tighten figure by calling `fig.tight_layout()`; and
+6. Tighten figure by calling `fig.tight_layout()`; and
 
-    7. Save the plot by calling `fig.savefig()` with`'dist_wri_status.png'` and `dpi=300` as arguments.
+7. Save the plot by calling `fig.savefig()` with`'dist_wri_status.png'` and `dpi=300` as arguments.
 
 4. Plot a 'World Risk Index' density plot grouped by `'Economic Region'`. Follow the steps from 3.1 to 3.7 except that, set `hue='Economic Region'` and save the figure as `'dist_wri_region.png`.
 

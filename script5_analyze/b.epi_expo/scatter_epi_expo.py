@@ -79,7 +79,6 @@ status_scatter.set_title("EPI vs. Exposure per Risk Type")
 fig.tight_layout()
 fig.savefig('scatter_risk.png', dpi=300)
 
-
 # Code credits:
     
 # https://www.statology.org/simple-linear-regression-in-python/
