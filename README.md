@@ -45,7 +45,7 @@ This analysis seeks to provide data-driven analysis of the relationship between 
 
 This analysis used `Python` and QGIS in data cleaning, processing and visualization. 
 
-## References:
+## References
 
 1. World Risk Report 2020. Bündnis Entwicklung Hilft, Ruhr University Bochum – Institute for International Law of Peace and Conflict 2020. 
 
