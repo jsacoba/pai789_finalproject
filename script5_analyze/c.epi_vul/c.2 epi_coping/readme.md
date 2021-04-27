@@ -1,10 +1,10 @@
-# Script No. 5.c.0: Analyzing and Visualizing the Relationship Between EPI vs. Vulnerability
+# Script No. 5.c.2: Analyzing and Visualizing the Relationship Between EPI vs. Lack of Coping Capacities
 
 ## A. Summary
 
 This script uses `pandas`, `matplotlib.pyplot`, `seaborn`, and `statsmodels.api` modules of `Python`. The script is aimed at:
 
-1. Analyzing the relationship between EPI and Vulnerability through linear regression; and
+1. Analyzing the relationship between EPI and Lack of Coping Capacities through linear regression; and
 
 2. Visualizing the relationship given the country's economic development status, economic region and qualitative risk level.
 
@@ -14,7 +14,7 @@ There is only one input data in this script ***combined_clean.csv***, which is t
 
 ## C. Deliverables
 
-1. Script named ***scatter_epi_vul.py***; and
+1. Script named ***scatter_epi_coping.py***; and
 
 2. Output files with names: ***scatter_epi_region.png***, ***scatter_epi_risk.png***, and ***scatter_epi_status.png***.
 
@@ -24,9 +24,9 @@ There is only one input data in this script ***combined_clean.csv***, which is t
 
 2. Import `pandas` as `pd`, `matplotlib.pyplot`, `seaborn` as `sns`, and `statsmodels.api` as `sm`.
 
-3. Let us test the correlation of EPI and Vulnerability. Print a descritpive message, then call the `.corr()` function to the `['Vulnerability']` column of `plots_data` with the argument `corr(plots_data['EPI.new']`, then round the result to 3 decimal places. This will show the correlation coefficient.
+3. Let us test the correlation of EPI and Susceptibility. Print a descritpive message, then call the `.corr()` function to the `['Lack of Coping Capacities']` column of `plots_data` with the argument `corr(plots_data['EPI.new']`, then round the result to 3 decimal places. This will show the correlation coefficient.
 
-4. Define dependent variable by assigning `y` to to the `['Vulnerability']` column of `plots_data`.
+4. Define dependent variable by assigning `y` to to the `['Lack of Coping Capacities']` column of `plots_data`.
 
 5. Define independent variable by assigning `x` to to the `['EPI.new']` column of `plots_data`.
 
@@ -42,25 +42,25 @@ There is only one input data in this script ***combined_clean.csv***, which is t
             fh.write(model.summary().as_text())`
 
 10. Now we will visualize the result of regression thru a scatter plot. Start by assigning `plots_data` to the result of calling 
-`pd.read_csv()` with the input file `combined_clean.csv` as argument. Plot the correlation between EPI and WRI given their Economic Region.
+`pd.read_csv()` with the input file `combined_clean.csv` as argument. Plot the correlation between EPI and Lack of Coping Capacities given their Economic Region.
 
     1. Start by assigning `fig, ax1` to `plt.subplots()`;
 
-    2. Assign  `region_scatter` to the result of calling `sns.scatterplot()` using the following arguments: `x="EPI.new"`, `y="Vulnerability"`,`hue='Economic Region'`, `data=plots_data`, `s=15`, and `palette="muted"`.
+    2. Assign  `region_scatter` to the result of calling `sns.scatterplot()` using the following arguments: `x="EPI.new"`, `y="Lack of Coping Capacities"`,`hue='Economic Region'`, `data=plots_data`, `s=15`, and `palette="muted"`.
 
     3. Set grid color by calling `sns.set_style('darkgrid')`;
 
-    4. Set the axes label by calling `.set()` to `region_scatter` using `xlabel='Environmental Performance Index'` and `ylabel='Vulnerability'` as arguments.
+    4. Set the axes label by calling `.set()` to `region_scatter` using `xlabel='Environmental Performance Index'` and `ylabel='Lack of Coping Capacities'` as arguments.
 
-    5. Set the title of the scatter to `"EPI vs. Vulnerability per Economic Region"`, plot by calling `.set_title()` to `region_scatter`.
+    5. Set the title of the scatter to `"EPI vs. Lack of Coping Capacities per Economic Region"`, plot by calling `.set_title()` to `region_scatter`.
 
     6. Tighten figure by calling `fig.tight_layout()`; and
 
     7. Save the plot by calling `fig.savefig()` with`'scatter_region.png'` and `dpi=300` as arguments.
 
-11. Plot the correlation between EPI and Vulnerability given their Economic Development Status. Follow the steps from 9.1 to 9.7 except that, set `'Economic Development Status'` and save the figure as `'scatter_status.png'`.
+11. Plot the correlation between EPI and Lack of Coping Capacitiesgiven their Economic Development Status. Follow the steps from 9.1 to 9.7 except that, set `'Economic Development Status'` and save the figure as `'scatter_status.png'`.
 
-12. Plot the correlation between EPI and Vulnerability given their Risk Level. Follow the steps from 9.1 to 9.7 except that, set `'Risk Level'` and save the figure as `'scatter_risk.png'`.
+12. Plot the correlation between EPI and Lack of Coping Capacities given their Risk Level. Follow the steps from 9.1 to 9.7 except that, set `'Risk Level'` and save the figure as `'scatter_risk.png'`.
 
 ## Code Credits
 
