@@ -80,7 +80,6 @@ status_scatter.set_title("EPI vs. Lack of Coping Capacities per Risk Level")
 fig.tight_layout()
 fig.savefig('scatter_risktype.png', dpi=300)
 
-
 # Code credits:
     
 # https://www.statology.org/simple-linear-regression-in-python/
