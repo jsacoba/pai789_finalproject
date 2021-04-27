@@ -44,19 +44,19 @@ There is only one input data in this script ***combined_clean.csv***, which is t
 10. Now we will visualize the result of regression thru a scatter plot. Start by assigning `plots_data` to the result of calling 
 `pd.read_csv()` with the input file `combined_clean.csv` as argument. Plot the correlation between EPI and WRI given their Economic Region.
 
-1. Start by assigning `fig, ax1` to `plt.subplots()`;
+    1. Start by assigning `fig, ax1` to `plt.subplots()`;
 
-2. Assign  `region_scatter` to the result of calling `sns.scatterplot()` using the following arguments: `x="EPI.new"`, `y="2020"`,`hue='Economic Region'`, `data=plots_data`, `s=15`, and `palette="muted"`.
+    2. Assign  `region_scatter` to the result of calling `sns.scatterplot()` using the following arguments: `x="EPI.new"`, `y="2020"`,`hue='Economic Region'`, `data=plots_data`, `s=15`, and `palette="muted"`.
 
-3. Set grid color by calling `sns.set_style('darkgrid')`;
+    3. Set grid color by calling `sns.set_style('darkgrid')`;
 
-4. Set the axes label by calling `.set()` to `region_scatter` using `xlabel='Environmental Performance Index'` and `ylabel='Exposure'` as arguments.
+    4. Set the axes label by calling `.set()` to `region_scatter` using `xlabel='Environmental Performance Index'` and `ylabel='Exposure'` as arguments.
 
-5. Set the title of the scatter to `"EPI vs. Exposure per Economic Region"`, plot by calling `.set_title()` to `region_scatter`.
+    5. Set the title of the scatter to `"EPI vs. Exposure per Economic Region"`, plot by calling `.set_title()` to `region_scatter`.
 
-6. Tighten figure by calling `fig.tight_layout()`; and
+    6. Tighten figure by calling `fig.tight_layout()`; and
 
-7. Save the plot by calling `fig.savefig()` with`'scatter_region.png'` and `dpi=300` as arguments.
+    7. Save the plot by calling `fig.savefig()` with`'scatter_region.png'` and `dpi=300` as arguments.
 
 11. Plot the correlation between EPI and Exposure given their Economic Development Status. Follow the steps from 9.1 to 9.7 except that, set `Economic Development Status'` and save the figure as `'scatter_status.png`.
 
