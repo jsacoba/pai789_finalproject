@@ -17,14 +17,14 @@ As defined by the report, the WRI is the interaction of a country's risk exposur
 
 3.	Adaptation. These include measures and strategies dealing with and attempting to address the negative impacts of natural hazards and climate change in the future. Adaptation, unlike coping, is understood as a long-term process that also includes structural changes.
 
-![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/wri_components.PNG)
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/script1-wri_data/wri_components.PNG)
 Source: The 2020 WorldRiskIndex Report
 
 ### The Environmental Performance Index
 
 The 2020 Environmental Performance Index (EPI) report ranked 180 countries according to their performance in addressing sustainability issues and environmental challenges that they face. It includes 32 performance metrics measures under 11 issue categories. The interaction of these indicator variables are summed up in two main EPI components: environmental health and ecosystem vitality. The report puts: "These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future."
 
-![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/epi_components.PNG)
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/script3_epi_data/epi_components.PNG)
 Source: The 2020 EPI Report
 
 
