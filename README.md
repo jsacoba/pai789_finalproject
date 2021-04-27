@@ -7,7 +7,7 @@
 
 ### The World Risk Index
 
-In 2020, the Bündnis Entwicklung Hilft, in collaboration with Ruhr University Bochum – Institute for International Law of Peace and Armed Conflict (IFHV) ranked 181 countries according to their risk of becoming the victim of a disaster resulting from an extreme natural event. Topping the list is the Pacific island of Vanuatu with a World Risk Index (WRI) of 49.79, while Qatar has the lowest risk of 0.31.
+In 2020, the Bündnis Entwicklung Hilft, in collaboration with Ruhr University Bochum – Institute for International Law of Peace and Armed Conflict (IFHV), ranked 181 countries according to their risk of becoming the victim of a disaster resulting from an extreme natural event. Topping the list is the Pacific island of Vanuatu with a World Risk Index (WRI) of 49.79, while Qatar has the lowest risk of 0.31.
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script1-wri_data/wri_components.PNG)
 Source: The 2020 WorldRiskIndex Report
@@ -24,7 +24,7 @@ As defined by the report, the WRI is the interaction of a country's risk exposur
 
 ### The Environmental Performance Index
 
-The 2020 Environmental Performance Index (EPI) report ranked 180 countries according to their performance in addressing sustainability issues and environmental challenges that they face. It includes 32 performance metrics measures under 11 issue categories. The interaction of these indicator variables are summed up in two main EPI components: environmental health and ecosystem vitality. The report puts: "These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future."
+The 2020 Environmental Performance Index (EPI) report ranked 180 countries according to their performance in addressing sustainability issues and environmental challenges that they face. It includes 32 performance metrics measures under 11 issue categories. The interaction of these indicator variables are summed up in two main EPI components: environmental health and ecosystem vitality. The report puts: **"These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future."**
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script3_epi_data/epi_components.PNG)
 Source: The 2020 EPI Report
