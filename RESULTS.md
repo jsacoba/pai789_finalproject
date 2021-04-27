@@ -15,7 +15,6 @@ Also, the results is telling that around 22.8% of variation in WRI is explained 
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/a.epi_wri/scatter_epi_wri.png)
 
-
 2. What does EPI tell about the exposure and vulnerability of countries to natural disasters?; and
 
 Because WRI is a function of the inherent risk (exposure) brought by physical hazards given the geographic location of a country and its societal framework and structural characteristics (vulnerability), we extended our analysis to determine which of these WRI components is correlated with EPI.
