@@ -26,19 +26,11 @@ There is only one input data in this script ***combined_clean.csv***, which is t
 
 3. Define dependent variable by assigning `y` to to the `['2020'` column of `plots_data`.
 
-y = plots_data['2020']
-
 4. Define independent variable by assigning `x` to to the `['EPI.new']` column of `plots_data`.
-
-x = plots_data[['EPI.new']]
 
 5. Add constant to independent variable by assigning `x` to the result of calling `sm.add_constant(x)`.
 
-x = sm.add_constant(x)
-
 6. Fit a linear regression model by assigning `model` to `sm.OLS(y, x).fit(cov_type='HC1')`
-
-model = sm.OLS(y, x).fit(cov_type='HC1')
 
 7. Print model summary by calling `.summary()` to `model`.
 
@@ -55,7 +47,7 @@ model = sm.OLS(y, x).fit(cov_type='HC1')
 
     3. Set grid color by calling `sns.set_style('darkgrid')`;
 
-    4. Set the axes label by calling `.set()` to `region_scatter` using `xlabel='Environmental Performace Index'` and `ylabel='World Risk Index'` as arguments.
+    4. Set the axes label by calling `.set()` to `region_scatter` using `xlabel='Environmental Performance Index'` and `ylabel='World Risk Index'` as arguments.
 
     5. Set the title of the scatter to `"EPI vs. WRI per Economic Region"`, plot by calling `.set_title()` to `region_scatter`.
 
