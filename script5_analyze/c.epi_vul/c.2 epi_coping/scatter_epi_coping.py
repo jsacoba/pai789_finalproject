@@ -64,7 +64,7 @@ status_scatter =sns.scatterplot(x="EPI.new", y="Lack of Coping Capacities",
                          palette="muted")
 sns.set_style('darkgrid')
 status_scatter.set(xlabel='Environmental Performace Index', ylabel='Lack of Coping Capacities')
-status_scatter.set_title("EPI vs. Lack of Coping Capacities per Economic Status")
+status_scatter.set_title("EPI vs. Lack of Coping Capacities per Economic Development Status")
 fig.tight_layout()
 fig.savefig('scatter_status.png', dpi=300)
 
@@ -72,11 +72,11 @@ fig.savefig('scatter_status.png', dpi=300)
 
 fig, ax1 = plt.subplots()
 status_scatter =sns.scatterplot(x="EPI.new", y="Lack of Coping Capacities", 
-                         hue='Risk Description', data=plots_data, s=15,
+                         hue='Risk Level', data=plots_data, s=15,
                          palette="muted")
 sns.set_style('darkgrid')
 status_scatter.set(xlabel='Environmental Performace Index', ylabel='Lack of Coping Capacities')
-status_scatter.set_title("EPI vs. Lack of Coping Capacities per Risk Type")
+status_scatter.set_title("EPI vs. Lack of Coping Capacities per Risk Level")
 fig.tight_layout()
 fig.savefig('scatter_risktype.png', dpi=300)
 

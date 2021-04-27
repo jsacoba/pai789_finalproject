@@ -3,8 +3,8 @@
 Dep. Variable:     Lack of Coping Capacities   R-squared:                       0.802
 Model:                                   OLS   Adj. R-squared:                  0.801
 Method:                        Least Squares   F-statistic:                     776.2
-Date:                       Mon, 26 Apr 2021   Prob (F-statistic):           4.43e-64
-Time:                               12:51:26   Log-Likelihood:                -546.85
+Date:                       Tue, 27 Apr 2021   Prob (F-statistic):           4.43e-64
+Time:                               02:35:23   Log-Likelihood:                -546.85
 No. Observations:                        166   AIC:                             1098.
 Df Residuals:                            164   BIC:                             1104.
 Df Model:                                  1                                         

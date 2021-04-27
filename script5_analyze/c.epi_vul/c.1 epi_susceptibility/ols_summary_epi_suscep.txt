@@ -3,8 +3,8 @@
 Dep. Variable:         Susceptibility   R-squared:                       0.544
 Model:                            OLS   Adj. R-squared:                  0.541
 Method:                 Least Squares   F-statistic:                     230.2
-Date:                Mon, 26 Apr 2021   Prob (F-statistic):           4.72e-33
-Time:                        12:50:18   Log-Likelihood:                -623.88
+Date:                Tue, 27 Apr 2021   Prob (F-statistic):           4.72e-33
+Time:                        02:30:19   Log-Likelihood:                -623.88
 No. Observations:                 166   AIC:                             1252.
 Df Residuals:                     164   BIC:                             1258.
 Df Model:                           1                                         

@@ -3,8 +3,8 @@
 Dep. Variable:     Lack of Adaptive Capacities   R-squared:                       0.817
 Model:                                     OLS   Adj. R-squared:                  0.816
 Method:                          Least Squares   F-statistic:                     949.6
-Date:                         Mon, 26 Apr 2021   Prob (F-statistic):           4.09e-70
-Time:                                 13:25:03   Log-Likelihood:                -538.93
+Date:                         Tue, 27 Apr 2021   Prob (F-statistic):           4.09e-70
+Time:                                 02:35:09   Log-Likelihood:                -538.93
 No. Observations:                          166   AIC:                             1082.
 Df Residuals:                              164   BIC:                             1088.
 Df Model:                                    1                                         

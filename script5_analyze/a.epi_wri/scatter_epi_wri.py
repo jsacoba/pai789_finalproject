@@ -62,7 +62,7 @@ status_scatter =sns.scatterplot(x="EPI.new", y="2020",
                          palette="muted")
 sns.set_style('darkgrid')
 status_scatter.set(xlabel='Environmental Performace Index', ylabel='World Risk Index')
-status_scatter.set_title("EPI vs. WRI per Economic Status")
+status_scatter.set_title("EPI vs. WRI per Economic Development Status")
 fig.tight_layout()
 fig.savefig('scatter_status.png', dpi=300)
 
@@ -74,7 +74,7 @@ status_scatter =sns.scatterplot(x="EPI.new", y="2020",
                          palette="muted")
 sns.set_style('darkgrid')
 status_scatter.set(xlabel='Environmental Performace Index', ylabel='World Risk Index')
-status_scatter.set_title("EPI vs. WRI per Risk Type")
+status_scatter.set_title("EPI vs. WRI per Risk Level")
 fig.tight_layout()
 fig.savefig('scatter_risk.png', dpi=300)
 
