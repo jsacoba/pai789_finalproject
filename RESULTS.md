@@ -3,8 +3,7 @@
 ## Data Distribution
 
 
-## 
-
+## Results and Analysis
 
 1. Is there a relationship between EPI and WRI? If there is, are they positively or negatively correlated?;
 
