@@ -65,11 +65,9 @@ model = sm.OLS(y, x).fit(cov_type='HC1')
 
 10. Plot the correlation between EPI and WRI given their Economic Development Status. Follow the steps from 9.1 to 9.7 except that, set `Economic Development Status'` and save the figure as `'scatter_status.png`.
 
-10. Plot the correlation between EPI and WRI given their Risk Level. Follow the steps from 9.1 to 9.7 except that, set `Risk Level'` and save the figure as `'scatter_risklevel.png`.
+11. Plot the correlation between EPI and WRI given their Risk Level. Follow the steps from 9.1 to 9.7 except that, set `Risk Level'` and save the figure as `'scatter_risk.png`.
 
-
-
-## Code credits
+## Code Credits
 
 1. https://www.statology.org/simple-linear-regression-in-python/
 

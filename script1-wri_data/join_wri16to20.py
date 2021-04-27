@@ -94,7 +94,7 @@ values = ['Very Low', 'Low', 'Medium', 'High', 'Very High']
 
 # Assign risk description to the 'WRI' of each countires.
 
-wri16_to_20['Risk Description'] = np.select(conditions, values)
+wri16_to_20['Risk Level'] = np.select(conditions, values)
 
 # Rearrange columns.
 

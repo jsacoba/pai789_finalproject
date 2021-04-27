@@ -42,4 +42,4 @@ There is only one input data in this script, which is the master file we generat
 
 4. Plot a 'World Risk Index' density plot grouped by `'Economic Region'`. Follow the steps from 3.1 to 3.7 except that, set `hue='Economic Region'` and save the figure as `'dist_epi_region.png`.
 
-5. Plot a 'World Risk Index' density plot grouped by `'Risk Description'`. Follow the steps from 3.1 to 3.7 except that, set `hue='Risk Description'` and save the figure as `'dist_epi_riskdesc.png`.
+5. Plot a 'World Risk Index' density plot grouped by `'Risk Level'`. Follow the steps from 3.1 to 3.7 except that, set `hue='Risk Level'` and save the figure as `'dist_epi_risk.png`.

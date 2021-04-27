@@ -67,17 +67,17 @@ status_scatter.set_title("EPI vs. Exposure per Economic Status")
 fig.tight_layout()
 fig.savefig('scatter_status.png', dpi=300)
 
-# c. Correlation between EPI and Exposure per Risk Description.
+# c. Correlation between EPI and Exposure per Risk Level.
 
 fig, ax1 = plt.subplots()
 status_scatter =sns.scatterplot(x="EPI.new", y="Exposure", 
-                         hue='Risk Description', data=plots_data, s=15,
+                         hue='Risk Level', data=plots_data, s=15,
                          palette="muted")
 sns.set_style('darkgrid')
 status_scatter.set(xlabel='Environmental Performace Index', ylabel='Exposure')
 status_scatter.set_title("EPI vs. Exposure per Risk Type")
 fig.tight_layout()
-fig.savefig('scatter_risktype.png', dpi=300)
+fig.savefig('scatter_risk.png', dpi=300)
 
 
 # Code credits:

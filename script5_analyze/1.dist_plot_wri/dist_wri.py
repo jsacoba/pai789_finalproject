@@ -28,15 +28,15 @@ ax1.set_xlabel('World Risk Index')
 fig.tight_layout()
 fig.savefig('dist_wri_region.png', dpi=300)
 
-# Plot a World Risk Index density plot, using hue = 'Risk Description'.
+# Plot a World Risk Index density plot, using hue = 'Risk Level'.
 
 fig, ax1 = plt.subplots()
 sns.set_style('darkgrid')
-sns.kdeplot(data=plots_data, shade=True, ax=ax1, x="2020", hue = "Risk Description")
+sns.kdeplot(data=plots_data, shade=True, ax=ax1, x="2020", hue = "Risk Level")
 ax1.axvline(linewidth=2, color='r', linestyle="dotted")
 ax1.set_xlabel('World Risk Index')
 fig.tight_layout()
-fig.savefig('dist_wri_riskdesc.png', dpi=300)
+fig.savefig('dist_wri_risk.png', dpi=300)
 
 
 
