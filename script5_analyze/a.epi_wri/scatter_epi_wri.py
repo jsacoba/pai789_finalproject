@@ -40,7 +40,6 @@ print(model.summary())
 with open('ols_summary_epi_wri.txt', 'w') as fh:
           fh.write(model.summary().as_text())
 
-
 # Visualize data.
 
 # a. Correlation between EPI and WRI per Economic Region.
