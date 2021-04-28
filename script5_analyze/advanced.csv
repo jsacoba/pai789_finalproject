@@ -1,0 +1,8 @@
+,iso3,Country,Economic Region,Risk Level,2020,Exposure,Vulnerability,Susceptibility,Lack of Coping Capacities,Lack of Adaptive Capacities,2019,2018,2017,2016,EPI.new,HLT.new,AIR.new,H2O.new,HMT.new,WMG.new,ECO.new,BDH.new,ECS.new,FSH.new,CCH.new,APE.new,AGR.new,WRS.new,Economic Development Status,GDP,Population,dup
+27,CAN,Canada,Global West,Very Low,2.79,10.36,26.89,15.17,18.77,46.73,3.03,2.63,3.13,3.01,71.0,91.7,94.8,88.0,96.6,84.7,57.3,60.5,30.1,11.0,65.7,100.0,67.3,67.4,Major Advanced Economy,45003.36,38.029,False
+39,DEU,Germany,Global West,Very Low,2.63,11.52,22.81,14.98,16.08,37.36,2.43,2.42,3.09,2.95,77.2,89.6,81.1,99.0,90.7,97.9,68.9,88.8,39.7,14.0,71.5,96.0,61.9,97.0,Major Advanced Economy,50682.06,83.151,False
+52,FRA,France,Global West,Very Low,2.47,9.62,25.66,16.61,16.22,44.14,2.37,2.34,2.73,2.62,80.0,91.5,88.1,96.2,84.0,94.8,72.3,88.3,36.1,12.1,81.9,100.0,65.2,88.0,Major Advanced Economy,43002.82,64.993,False
+54,GBR,United Kingdom,Global West,Low,3.46,12.58,27.53,16.42,19.09,47.07,3.3,3.31,3.6,3.54,81.3,91.7,84.7,100.0,94.6,92.9,74.3,88.0,28.3,8.8,90.0,100.0,54.3,98.5,Major Advanced Economy,41899.45,67.255,False
+76,ITA,Italy,Global West,Low,4.75,15.17,31.29,17.25,17.41,59.22,4.57,4.12,4.63,4.42,71.0,85.5,75.9,98.2,81.5,83.7,61.3,75.6,37.9,14.9,68.1,81.4,56.8,58.8,Major Advanced Economy,37904.74,60.287,False
+79,JPN,Japan,Asia-Pacific,High,9.64,38.67,24.93,17.76,17.83,39.2,9.19,11.08,13.47,12.99,75.1,90.3,85.9,95.0,100.0,86.5,65.1,76.6,41.7,35.2,69.5,77.7,55.9,75.3,Major Advanced Economy,39391.14,125.758,False
+158,USA,United States of America,Global West,Low,3.9,12.99,30.06,15.97,21.67,52.54,3.76,3.42,3.9,3.76,69.3,82.8,84.2,86.1,75.9,48.3,60.3,67.5,26.8,6.6,71.4,100.0,71.9,58.9,Major Advanced Economy,59651.0,330.005,True

@@ -3,7 +3,7 @@ import geopandas
 
 #https://www.igismap.com/download-world-shapefile-free-country-borders-continents/
 
-geo_csv = pd.read_csv('plots_data.csv')
+geo_csv = pd.read_csv('combined_clean.csv')
 
 geo_zip = geopandas.read_file("TM_WORLD_BORDERS-0.3.gpkg")
 
