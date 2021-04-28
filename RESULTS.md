@@ -16,7 +16,7 @@ Yes. Based on the OLS Regression Results below, EPI and WRI are negatively corre
 
 Also, the results show that around 22.8% of variation in WRI is explained by the EPI. 
 
-![](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/a.epi_wri/ols_epi_wri.PNG)
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/a.epi_wri/ols_epi_wri.png)
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/a.epi_wri/scatter_epi_wri.png)
 
