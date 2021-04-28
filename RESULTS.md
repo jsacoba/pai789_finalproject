@@ -4,7 +4,7 @@
 
 ## 1. Environmental sustainability management performance is negatively correlated with the risk of natural disaster.
 
-Resulst show that a country's performance in addressing environmental sustainability issues is associated with its risk of becoming a victim of an extreme natural event (disaster). Based from the OLS regression results, EPI and WRI are negatively correlated with a correlation coefficient of -0.477. This suggests that on the average, a one-point increase in EPI is associated with a decrease in WRI by 0.1826 points. With a p-value close to zero, the coefficient of EPI is significant at 5% level [and even at 1% level]. Finally, the results show that around 22.8% of variation in WRI is explained by EPI. 
+Results show that a country's performance in addressing environmental sustainability issues is associated with its risk of becoming a victim of an extreme natural event (disaster). Based from the OLS regression, EPI and WRI are negatively correlated with a correlation coefficient of -0.477. This suggests that on the average, a one-point increase in EPI is associated with a decrease in WRI by 0.1826 points. With a p-value close to zero, the coefficient of EPI is significant at 5% level [and even at 1% level]. Finally, the results show that around 22.8% of variation in WRI is explained by EPI. 
 
 ## 2. EPI has a stronger correlation with a country's risk vulnerability than its exposure.
 
@@ -20,7 +20,7 @@ To support this analysis, first we take the case of countries that were rated wi
 
 ![Countries with Same Risk Exposure](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/points_ols.png)
 
-Second, let us take the case of advanced economies or the G7 countries namely, Japan, Italy, United States of America, United Kingdom, Canada, Germany and France with summative information shown below:
+Second, let us take the case of advanced economies or the G7 countries namely, Japan, Italy, United States of America, United Kingdom, Canada, Germany, and France with summative information shown below:
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/japan_highlight.png)
 
