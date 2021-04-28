@@ -1,13 +1,12 @@
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/disaster_ph.PNG)
 
-# Linking Disaster Risk and Environmental Management
-
+# Linking Disaster Risk and Environmental Sustainability
 ## Background
 
 ### The World Risk Index
 
-In 2020, the Bündnis Entwicklung Hilft, in collaboration with Ruhr University Bochum – Institute for International Law of Peace and Armed Conflict (IFHV), ranked 181 countries according to their risk of becoming the victim of a disaster resulting from an extreme natural event. Topping the list is the Pacific island of Vanuatu with a World Risk Index (WRI) of 49.79, while Qatar has the lowest risk of 0.31.
+In 2020, the Bündnis Entwicklung Hilft, in collaboration with Ruhr University Bochum – Institute for International Law of Peace and Armed Conflict (IFHV), ranked 181 countries according to their risk of becoming the victim of a disaster resulting from an extreme natural event. Topping the list is the Pacific island of Vanuatu with a World Risk Index (WRI) of 49.79, while the Greatest Middle East country Qatar has the lowest risk of 0.31.
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script1-wri_data/wri_components.PNG)
 Source: The 2020 WorldRiskIndex Report
@@ -20,11 +19,9 @@ As defined by the report, the WRI is the interaction of a country's risk exposur
 
 3.	Adaptation. These include measures and strategies dealing with and attempting to address the negative impacts of natural hazards and climate change in the future. Adaptation, unlike coping, is understood as a long-term process that also includes structural changes.
 
-
-
 ### The Environmental Performance Index
 
-The 2020 Environmental Performance Index (EPI) report ranked 180 countries according to their performance in addressing sustainability issues and environmental challenges that they face. It includes 32 performance metrics measures under 11 issue categories. The interaction of these indicator variables are summed up in two main EPI components: environmental health and ecosystem vitality. The report puts: **"These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future."**
+The 2020 Environmental Performance Index (EPI) report ranked 180 countries according to their performance in addressing sustainability issues and environmental challenges that they face. It includes 32 performance metrics under 11 issue categories. The interaction of these indicator variables are summed up in two main EPI components: environmental health and ecosystem vitality. The report puts: **"These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future."**
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script3_epi_data/epi_components.PNG)
 Source: The 2020 EPI Report
@@ -39,11 +36,11 @@ This analysis seeks to provide data-driven analysis of the relationship between 
 
 2. What does EPI tell about the exposure and vulnerability of countries to natural disasters?; and
 
-3. What does the location and economic development status tell about their WRI and EPI?
+3. What does the location and economic development status a country tell about its WRI and EPI?
 
 ## Data Handling and Processing
 
-This analysis used `Python` and QGIS in data cleaning, processing and visualization. 
+This analysis used `Python` and `QGIS 3.18` in data cleaning, processing, and visualization. 
 
 ## References
 
