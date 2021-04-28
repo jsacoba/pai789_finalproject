@@ -26,7 +26,6 @@ There is only one input data in this script, which is the master file ***combine
 
 5. Finally, test the correlation of EPI and Vulnerability. Print a descritpive message, then call the `.corr()` function to the `['Vulnerability']` column of `analyze` with the argument `corr(plots_data['EPI.new']`, then round the result to 3 decimal places. 
 
-
 6. Now we regress WRI and EPI. Start by defining the dependent variable by assigning `y` to to the `['2020']` column of `analyze`.
 
 7. Then define independent variable by assigning `x` to to the `['EPI.new']` column of `analyze`.
