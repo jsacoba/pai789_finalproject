@@ -1,4 +1,4 @@
-# Script No. 1: Joining Data from the World Risk Index (WRI) Report 2016 to 2020
+# Script No. 1: Joining Data from the World Risk Index (WRI) Report (2016 to 2020)
 
 ## A. Summary
 
