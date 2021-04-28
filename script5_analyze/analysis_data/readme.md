@@ -1,4 +1,4 @@
-# Script No. 5.1: Data Analysis
+# ***Script No. 5.1: Data Analysis***
 
 ## A. Summary
 
@@ -19,7 +19,6 @@ There is only one input data in this script, which is the master file ***combine
 1. Import `pandas` as `pd`.
 
 2. Read input file by assigning `analyze` to the result of calling `pd.to_csv()` on `'combined_clean.csv'`.
-analyze = pd.read_csv('combined_clean.csv')
 
 3. Now extract countries with the same Risk Exposure Index. Start by creating a column named `'dup'` in `analyze` that is equal to the result of calling `.duplicated()` to the `Exposure` column of `analyze` with arguments `(keep=False) & analyze.Exposure.notna()`. That is:
 
@@ -41,4 +40,4 @@ analyze = pd.read_csv('combined_clean.csv')
 
 10. Concatenate `rich` and `poor` by assigning `extremes` to the result of calling `pd.concat()` with arguments `[rich, poor]` and `axis = 0`.
 
-11. 7. Save the new data frame by calling `.to_csv` to `extremes`. Use the file name `extremes.csv`.
+11. Save the new data frame by calling `.to_csv` to `extremes`. Use the file name `extremes.csv`.

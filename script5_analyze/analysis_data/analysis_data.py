@@ -1,3 +1,5 @@
+# Import 'pandas' module.
+
 import pandas as pd
 
 # Read input file.
