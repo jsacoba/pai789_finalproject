@@ -36,7 +36,7 @@ As observed from the table above, G7 countries performed well in environmental s
 Figure 5. EPI vs. WRI per Economic Region
 
 
-## 3. Advanced economies performs better in addressing environmental sustainability issues, hence with lower risk of natural disaster.
+## 3. Advanced economies perform better in addressing environmental sustainability issues, hence with lower risk of natural disaster.
 
 Let us take another dimesnion of analysis by taking into account the economic development status of countries. The table below contains information about the ten poorest and and ten riches countries based on their GDP per capita in 2020.
 
