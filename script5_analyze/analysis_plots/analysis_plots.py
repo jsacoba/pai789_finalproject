@@ -46,7 +46,7 @@ fig.tight_layout()
 fig.savefig('epi_wri_region.png', dpi=300)
 
 
-# ***C. Scatter Plot: EPI vs. WRI per Economic Development Status.***
+# ***D. Scatter Plot: EPI vs. WRI per Economic Development Status.***
 
 fig, ax1 = plt.subplots()
 region =sns.scatterplot(x="EPI.new", y="2020", 
