@@ -2,7 +2,7 @@
 
 # Results and Analysis
 
-## 1. Environmental sustainability management is negatively correlated with the risk of natural disaster.
+## 1. Performance in environmental sustainability management is negatively correlated with the risk of natural disaster.
 
 Results show that a country's performance in addressing environmental sustainability issues is associated with its risk of becoming a victim of an extreme natural event (disaster). Based from the OLS regression, EPI and WRI are negatively correlated with a correlation coefficient of -0.477. This suggests that on the average, a one-point increase in EPI is associated with a decrease in WRI by 0.1826 points. With a p-value close to zero, the coefficient of EPI is significant at 5% level [and even at 1% level]. Finally, the results show that around 22.8% of variation in WRI is explained by EPI. 
 
