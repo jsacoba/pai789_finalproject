@@ -12,11 +12,11 @@
 
 ### 1. Is there a relationship between EPI and WRI? If there is, are they positively or negatively correlated?;
 
-Yes. Based on the OLS Regression Results below, EPI and WRI are negatively correlated with a correlation coefficient of -0.477. This suggests that on the average, a 1 point increase in EPI is associated with a decrease in WRI by 0.1826 points. Moreover, the coefficient of EPI is significant at 97.5% confidence level. This means that a country's performance in addressing environmental sustainability issues is associated with its risk of becoming a victim of an extreme natural event (disaster).
+Yes. Based on the OLS Regression Results below, EPI and WRI are negatively correlated with a correlation coefficient of -0.477. This suggests that on the average, a 1 point increase in EPI is associated with a decrease in WRI by 0.1826 points. Moreover, the coefficient of EPI is significant at 97.5% confidence level [1]: See regression results. This means that a country's performance in addressing environmental sustainability issues is associated with its risk of becoming a victim of an extreme natural event (disaster).
 
 Also, the results show that around 22.8% of variation in WRI is explained by the EPI. 
 
-![](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/a.epi_wri/ols_epi_wri.png)
+
 
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/a.epi_wri/scatter_epi_wri.png)
