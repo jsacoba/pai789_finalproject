@@ -11,6 +11,8 @@ Results show that a country's performance in addressing environmental sustainabi
 Because WRI is a function of the inherent risk (exposure) brought by physical hazards given the geographic location of a country and its societal framework and structural characteristics (vulnerability), we extend our analysis to determine and dissect which of these WRI components is correlated with EPI.
 
 ![OLS Exposure and Vulnerability](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/ols.png)
+Figure 1. OLS Regression Results: EPI vs. Exposure and Vulnerability
+&nbsp
 
 The results show that EPI is negatively correlated to both exposure and vulnerability with EPI coefficients that are both significant at 5% level. Interestingly, OLS regression shows that EPI has a stronger correlation with vulnerability with r = -0.892 than that of exposure with r = -0.188. Although this does not support a causal relationship, the model seem to suggest that addressing environmental sustainability issues cannot do much on risk exposure since it is a function of inherent physical hazard brought by the geographical location of countries. 
 
