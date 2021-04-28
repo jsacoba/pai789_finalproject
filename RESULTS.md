@@ -26,6 +26,7 @@ The results whow that EPI is negatively correlated to both exposure and vulnerab
 
 To support this analysis, first we take the case of countries that were rated with the same risk exposure index. Both the United States of America (Global West) and Afghanistan (Southern Asia) were rated 12.99 in terms of exposure but with vulnerability rating of 66.93 and 30.06, repectively, their WRI has a large gap of 4.79. The same case is through with Spain (Global West) and Pakistan (Southern Asia). Relative thereto, we also note the large disparity between their EPI scores. 
 
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/e.%20analysis_tables/risk_region.png)
 
 
 
