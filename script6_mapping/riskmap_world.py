@@ -38,3 +38,14 @@ joined = joined.drop('_merge', axis= 1)
 
 joined.to_file("world.gpkg", layer = "2020", driver = "GPKG")
 
+# B. Create maps for WRI and EPI.
+
+# 1. Open a new QGIS file.
+# 2. Add "world.gpkg".
+# 3. Create WRI map. Rename Layer to 'World Risk Index'. Set Layer Properties to '
+#    Graduated' using '2020' as value,  then select color ramp. Use 'Pretty Breaks'. 
+#    Export map with legend.
+# 4. Duplicate the WRI map. Rename Layer to 'Environmental Performance Index'.
+#    Set Layer Properties to 'Graduated' using 'EPI.new as value, then select 
+#    color ramp. Use 'Equal Interval'. Export image with legend.
+# 5. Save the 'QGIS' file.

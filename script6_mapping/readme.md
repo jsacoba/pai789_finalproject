@@ -41,3 +41,15 @@ There are two input data in this script:
 8. Print the result of calling `.value_counts()` to the `_merge` column of `joined`, then drop `_merge` column from `joined`.
 
 9. Write out `joined` to a geopackage file called `"world.gpkg"`. Set the layer to `"2020"` and specify `driver="GPKG"`.
+
+10. Create maps for WRI and EPI.
+
+    1. Open a new QGIS file.
+
+    2. Add "world.gpkg".
+
+    3. Create WRI map. Rename Layer to `World Risk Index`. Set Layer Properties to `Graduated` using `2020` as value,  then select color ramp. Use `Pretty Breaks`. Export map with legend.
+    
+    4. Duplicate the WRI map. Rename Layer to `Environmental Performance Index`. Set Layer Properties to `Graduated` using 'EPI.new as value, then select color ramp. Use `Equal Interval`. Export image with legend.
+    
+    5. Save the 'QGIS' file.
