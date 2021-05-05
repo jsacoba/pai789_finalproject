@@ -1,5 +1,4 @@
 ![Indices Map](https://github.com/jsacoba/pai789_finalproject/blob/main/script6_mapping/joined_maps.png)
-Photo credits: `www.google.com`
 
 # Script No. 5.1: Data Analysis
 
