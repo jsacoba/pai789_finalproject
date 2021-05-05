@@ -3,9 +3,13 @@ import geopandas
 
 #https://www.igismap.com/download-world-shapefile-free-country-borders-continents/
 
+tm = geopandas.read_file("TM_WORLD_BORDERS-0.3.gpkg")
+tm['name'] = tm['name'].where( tm['iso2'] != 'AX', "Åland Island" )
+tm.to_file("TM_WORLD_BORDERS-0.3-fixed.gpkg",driver="GPKG")
+
 geo_csv = pd.read_csv('combined_clean.csv')
 
-geo_zip = geopandas.read_file("TM_WORLD_BORDERS-0.3.gpkg")
+geo_zip = geopandas.read_file("TM_WORLD_BORDERS-0.3-fixed.gpkg")
 
 joined = geo_zip.merge(geo_csv, on='iso3', how = 'left', 
                        validate = '1:1', indicator = True )
