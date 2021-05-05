@@ -14,7 +14,7 @@ This script uses `pandas` and `numpy` modules of `Python`. The script is aimed a
 
 There are various input data in this script:
 
-1. WRI files (5 files): ***wri2016_raw.csv***, ***wri2017_raw.csv***, ***wri2018_raw.csv***, ***wri2019_raw.csv*** and ***wri2020_raw.csv***. These were extracted from the ***'Appendix'*** portion of the ***WorldRiskIndex*** reports from 2016 to 2020 which come in `.pdf` format. Each report contains different number of countries ranked:
+1. WRI files (5 files): ***wri2016_raw.csv***, ***wri2017_raw.csv***, ***wri2018_raw.csv***, ***wri2019_raw.csv*** and ***wri2020_raw.csv***. These were extracted from the ***'Appendix'*** portion of the ***WorldRiskIndex*** reports from 2016 to 2020 which come in `.pdf` format. The reports can be downloaded from `https://weltrisikobericht.de/english/`. Each report contains different number of countries ranked:
 
       ***wri2016_raw.csv*** - 171 countries
 
@@ -26,13 +26,13 @@ There are various input data in this script:
 
       ***wri2020_raw.csv*** - 181 countries
 
-2. Mapping files (5 files): ***iso16_map.csv***, ***iso17_map.csv***, ***iso18_map.csv***, ***iso19_map.csv*** and ***iso20_map.csv***. There were inconsistencies in naming the countries in the WRI reports from 2016 to 2020. Mapping files were created to facilitate joining rankings of countries that have been included in the ***WorldRiskIndex*** Report for five years. The mapping files contain the countries ***'as named'*** in each report year, and the 3-letter ***iso*** ***code*** for each country.
+2. Mapping files (5 files): ***iso16_map.csv***, ***iso17_map.csv***, ***iso18_map.csv***, ***iso19_map.csv*** and ***iso20_map.csv***. There were inconsistencies in naming the countries in the WRI reports from 2016 to 2020. Mapping files were created to facilitate joining rankings of countries that have been included in the ***WorldRiskIndex*** Report for five years. The mapping files contain the countries ***'as named'*** in each report year, and the 3-letter ***ISO code*** for each country.
 
 ## C. Deliverables
 
-1. Script named ***join_wri16to20.py***;
+1. A script named ***join_wri16to20.py***;
 
-2. Output file with name ***wri16to20_clean.csv*** that consolidates WRIs for five years. To reiterate, take note that the WRI Reports contain different number of countries. This output file contains WRIs for countries that have been consistently included in the report for five years. After joining the input files, the output file contains 170 countries; and
+2. Output file with name ***wri16to20_clean.csv*** that consolidates WRIs for five years. To reiterate, take note that the WRI reports contain different number of countries. This output file contains WRIs for countries that have been consistently included in the report for five years. After joining the input files, the output file contains 170 countries; and
 
 3. Based from the consolidated records, a mapping file called ***mapping_wri_clean.csv*** is made to serve as master file in joining ***wri16to20_clean.csv*** with other variables from other data sets.
 
@@ -50,7 +50,7 @@ There are various input data in this script:
    
 4. Read the input files with file format ***isoyear_map*** (e. g. `iso20_map.csv`) by calling `pd.read_csv` to each file. As in  number (2) use the following variable names: `map_alpha16`, `map_alpha17`, `map_alpha18  `, `map_alpha19` and. `map_alpha20`, respectively. 
 
-   The `Country` column of the mapping files are identical to the `Country`  column of the `wri` files. The  3-letter `iso` codes serves  two purposes. First, this will facilitate joining the data sets to filter out  the countries that were named differently in the reports, and second, dropping out countries that have not been consistently included in the report in the last five years. 
+   The `Country` column of the mapping files are identical to the `Country`  column of the `wri` files. The  3-letter `iso` codes serve  two purposes. First, this will facilitate joining the data sets to for the countries that were named differently in the reports, and second, dropping out countries that have not been consistently included in the report in the last five years. 
    
 5. Map the 3-letter `iso` code to each `wri` file to standardize `key` for  joining the WRI data from 2016 to 2020. Do it by calling `.merge()` function to each joins and assign each joins to a file name of format `wriyear`. For example:
 
@@ -68,9 +68,9 @@ There are various input data in this script:
 
       `wri16_to_20 = wri20.join(wri19, how="inner").join(wri18, how="inner").join(...2016)`
         
-      To keep track how much data have been filtered out, count the number of countries  with complete records. Start by assigning `count_final` to `len(wri16_to_20)`. Print the result with description. Then, print a message describing the  result of subtracting `count_final` from `count_20`. If all goes well, countries with complete records should be 170, thus with dropped records of 11.
+11. To keep track how much data have been filtered out, count the number of countries  with complete records. Start by assigning `count_final` to `len(wri16_to_20)`. Print the result with description. Then, print a message describing the  result of subtracting `count_final` from `count_20`. If all goes well, countries with complete records should be 170, thus with dropped records of 11.
 
-11. Now let us assign risk description for each WRI in 2020. Start by setting the conditions for risk description scale from the WRI Report. Build a list called `conditions` containing arguments for range of values. Set up as follows:
+12. Now let us assign risk description for each WRI in 2020. Start by setting the conditions for risk description scale from the WRI Report. Build a list called `conditions` containing arguments for range of values. Set up as follows:
 
       `[(wri16_to_20["2020"] >= 0.31) & (wri16_to_20["2020"] <= 3.29),`
 
@@ -82,21 +82,21 @@ There are various input data in this script:
       
       `(wri16_to_20["2020"] >= 10.76) & (wri16_to_20["2020"] <= 49.74)]`
       
-12. Then, build a list of qualitative description of the risk range of values. Set `'values'` to a list of string: `"Very Low"`, `"Low"`, `"Medium"`, `"High"`, `"Very High"`.
+13. Then, build a list of qualitative description of the risk range of values. Set `'values'` to a list of string: `"Very Low"`, `"Low"`, `"Medium"`, `"High"`, `"Very High"`.
 
-13. Assign risk description to the WRI of each countries by adding a new column called `"Risk Description"` in `wri16_to_20` by calling `np.select()` with arguments `conditions` and `values`.
+14. Assign risk description to the WRI of each countries by adding a new column called `"Risk Description"` in `wri16_to_20` by calling `np.select()` with arguments `conditions` and `values`.
 
-14. Now let us rearrange the columns. Do it by assigning `wri16_to_20` to the result of calling the `columns` of `wri16_to_20` with a list of the column locations that  we need to retain. Use the argument `[0,11,1,2,3,4,5,6,7,8,9,10]`.
+15. Now let us rearrange the columns. Do it by assigning `wri16_to_20` to the result of calling the `columns` of `wri16_to_20` with a list of the column locations that  we need to retain. Use the argument `[0,11,1,2,3,4,5,6,7,8,9,10]`.
 
-15. Double check for missing values or records. Start by assigning `na_values` to the  result of calling `.isna().any()` to `wri16_to_20`. That is:
+16. Double check for missing values or records. Start by assigning `na_values` to the  result of calling `.isna().any()` to `wri16_to_20`. That is:
 
       `na_values = wri16_to_20[wri16_to_20.isna().any(axis=1)]`
       
-16. Then print `na_values`. If all goes well, it should return an empty data frame. 
+17. Then print `na_values`. If all goes well, it should return an empty data frame. 
 
-17. Now let us create a final mapping file. This will serve as master mapping file for all succeeding merging or joining of information from other data sets. Start building the mapping file by assigning `mapping_wri` to  the result of calling `.iloc()` to `wri16_to_20` with argument `:, 0:1`. This will select the 3-letter `iso` code and `Country` column of the cleaned data `wri16_to_20`.
+18. Now let us create a final mapping file. This will serve as master mapping file for all succeeding merging or joining of information from other data sets. Start building the mapping file by assigning `mapping_wri` to  the result of calling `.iloc()` to `wri16_to_20` with argument `:, 0:1`. This will select the 3-letter `iso` code and `Country` column of the cleaned data `wri16_to_20`.
 
-18. Save cleaned data sets. Save the cleaned WRI data set by calling `.to_csv()` to `wri16_to_20`. Use the filename `wri16to20_clean.csv`. Then save the mapping  file by calling `.to_csv()` to `mapping_wri` and use the filename `mapping_wri_clean.csv`. he data cleaned data set contains the following columns:
+19. Save cleaned data sets. Save the cleaned WRI data set by calling `.to_csv()` to `wri16_to_20`. Use the filename `wri16to20_clean.csv`. Then save the mapping  file by calling `.to_csv()` to `mapping_wri` and use the filename `mapping_wri_clean.csv`. he data cleaned data set contains the following columns:
 
       `iso3`            - refers to the UN 3-letter alpha code for countries.
 
