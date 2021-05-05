@@ -94,4 +94,18 @@ There are various input data in this script:
 
 17. Now let us create a final mapping file. This will serve as master mapping file for all succeeding merging or joining of information from other data sets. Start building the mapping file by assigning `mapping_wri` to  the result of calling `.iloc()` to `wri16_to_20` with argument `:, 0:1`. This will select the 3-letter `iso` code and `Country` column of the cleaned data `wri16_to_20`.
 
-18. Save cleaned data sets. Save the cleaned WRI data set by calling `.to_csv()` to `wri16_to_20`. Use the filename `wri16to20_clean.csv`. Then save the mapping  file by calling `.to_csv()` to `mapping_wri` and use the filename `mapping_wri_clean.csv`.
+18. Save cleaned data sets. Save the cleaned WRI data set by calling `.to_csv()` to `wri16_to_20`. Use the filename `wri16to20_clean.csv`. Then save the mapping  file by calling `.to_csv()` to `mapping_wri` and use the filename `mapping_wri_clean.csv`. he data cleaned data set contains the following columns:
+
+      `iso3`            - refers to the UN 3-letter alpha code for countries.
+
+      `Country`         - country name as reported in the 2020 World Risk Index report.
+
+      `Risk Level`      - descriptive value of the 2020 WRI of each countries.
+
+      `2020`            - 2020 World Risk Index. WRI is equal to Exposure times Vulnerability.
+
+      `Exposure`        - 2020 Exposure Risk Index.
+
+      `Vulnerability`   - 2020 Vulnerability Risk Index. It is the mean of scores in `Susceptibility`, `Lack of Coping Capacities` and  `Lack of Adaptive Capacities`.
+
+      It also contains the WRI for `2019`, `2018`,`2017` and `2016`.
