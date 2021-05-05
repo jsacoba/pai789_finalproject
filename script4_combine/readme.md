@@ -1,3 +1,7 @@
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/combined.png)
+Photo credits: `https://weltrisikobericht.de/english/`, `https://www.imf.org/en/Publications/WEO`, and `https://epi.yale.edu/downloads`
+
+
 # Script No. 4: Combining Data Sets: WRI, EPI and economic data from IMF the website.
 
 ## A. Summary
