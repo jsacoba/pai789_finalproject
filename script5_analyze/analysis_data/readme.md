@@ -1,4 +1,4 @@
-# ***Script No. 5.1: Data Analysis***
+# Script No. 5.1: Data Analysis
 
 ## A. Summary
 
@@ -12,7 +12,7 @@ There is only one input data in this script, which is the master file ***combine
 
 1. Script named ***analysis_data.py***; and
 
-2. Output files with names ***advanced.csv***, ***extremes.csv***, and ***same_exposure.csv***.
+2. Output files with names ***advanced.csv***, ***extremes.csv***, and ***same_exposure.csv***. The column names are similar to those in the master file. The ***advanced.csv*** file contains information about the G7 countries; ***extremes.csv*** contains the top 10 (richest) and bottom 10 (poorest) countries in terms of GDP per capita, and; ***same_exposure.csv*** contains a list of countries with same Exposure Index for 2020. 
 
 ## D. Instructions
 
