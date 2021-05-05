@@ -1,7 +1,7 @@
 
 ![Visual](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/to_RESULTS.MD/combined_scatter_region.png)
 
-# Script No. 5.3: Density and Scatter Plots
+# Script No. 5.2: Density and Scatter Plots
 
 ## A. Summary
 
