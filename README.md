@@ -40,7 +40,7 @@ This analysis seeks to provide data-driven analysis of the relationship between 
 
 ## Data Handling and Processing
 
-This project used `Python` and `QGIS 3.18` in data cleaning, processing, and visualization. 
+This project used `Python` and `QGIS 3.18` in data cleaning, processing, and visualization. For the detailed `Python` codes, refer to each of the numbered folders in the main branch of this repository.
 
 ## Results and Analysis
 
