@@ -39,32 +39,36 @@ There is only one input data in this script, which is the master file ***'combin
 
     7. Save the plot by calling `fig.savefig()` with`'dist_wri_region.png'` and `dpi=300` as arguments.
 
-4. Now we will visualize the distribution of WRI of countries thru scatter plot. Start by assigning `fig, ax1` to `plt.subplots()`. 
+4. Now we will visualize the distribution of WRI of countries thru scatter plot. 
 
-5. Assign  `region` to the result of calling `sns.scatterplot()` using the following arguments: `x="2020"`, `y="Economic Region"`,`hue='Economic Region'`, `data=plots_data`, `s=15`, and `palette="muted"`.
+    1. Start by assigning `fig, ax1` to `plt.subplots()`. 
+    
+    2. Assign  `region` to the result of calling `sns.scatterplot()` using the following arguments: `x="2020"`, `y="Economic Region"`,`hue='Economic Region'`, `data=plots_data`, `s=15`, and `palette="muted"`.
+    
+    3. Set grid color by calling `sns.set_style('darkgrid')`.
+    
+    4. Set the axes label by calling `.set()` to `region` using `xlabel='World Risk Index'` and `ylabel='Economic Region'` as arguments.
+    
+    5. Set the title of the scatter to `"World Risk Index per Economic Region"`, plot by calling `.set_title()` to `region`.
+    
+    6. Tighten figure by calling `fig.tight_layout()`; and
+    
+    7. Save the plot by calling `fig.savefig()` with `'risk_region.png'` and `dpi=300` as arguments.
 
-6. Set grid color by calling `sns.set_style('darkgrid')`.
+5. Let us also create a scatter plot to visualize the relationship between `EPI` and `World Riesk Index`. 
 
-7. Set the axes label by calling `.set()` to `region` using `xlabel='World Risk Index'` and `ylabel='Economic Region'` as arguments.
+    1. Start by assigning `fig, ax1` to `plt.subplots()`.
+    
+    2. Assign  `region` to the result of calling `sns.scatterplot()` using the following arguments: `x="EPI.new"`, `y="2020"`,`hue='Economic Region'`, `data=plots_data`, `s=15`, and `palette="muted"`.
+    
+    3. Set grid color by calling `sns.set_style('darkgrid')`.
+    
+    4. Set the axes label by calling `.set()` to `region` using `xlabel='Environmental Performance Index'` and `ylabel='World Risk Index'` as arguments.
+    
+    5. Set the title of the scatter to `"EPI vs. WRI per Economic Region"`, plot by calling `.set_title()` to `region`.
+    
+    6. Tighten figure by calling `fig.tight_layout()`; and
+    
+    7. Save the plot by calling `fig.savefig()` with `'scatter_region.png'` and `dpi=300` as arguments.
 
-8. Set the title of the scatter to `"World Risk Index per Economic Region"`, plot by calling `.set_title()` to `region`.
-
-9. Tighten figure by calling `fig.tight_layout()`; and
-
-10. Save the plot by calling `fig.savefig()` with `'risk_region.png'` and `dpi=300` as arguments.
-
-11. Let us also create a scatter plot to visualize the relationship between `EPI` and `World Riesk Index`. Start by assigning `fig, ax1` to `plt.subplots()`.
-
-12. Assign  `region` to the result of calling `sns.scatterplot()` using the following arguments: `x="EPI.new"`, `y="2020"`,`hue='Economic Region'`, `data=plots_data`, `s=15`, and `palette="muted"`.
-
-13. Set grid color by calling `sns.set_style('darkgrid')`.
-
-14. Set the axes label by calling `.set()` to `region` using `xlabel='Environmental Performance Index'` and `ylabel='World Risk Index'` as arguments.
-
-15. Set the title of the scatter to `"EPI vs. WRI per Economic Region"`, plot by calling `.set_title()` to `region`.
-
-16. Tighten figure by calling `fig.tight_layout()`; and
-
-17. Save the plot by calling `fig.savefig()` with `'scatter_region.png'` and `dpi=300` as arguments.
-
-11. Now we will create the same scatter plot, but with `hue=Economic Development Status`. Follow the same steps from 11 to 17, except that use `hue=Economic Development Status` and set the title of the scatter to `"EPI vs. WRI per Economic Development Status"`. Save the figure as `'scatter_status.png'`
+6. Now we will create the same scatter plot, but with `hue=Economic Development Status`. Follow the same steps from 11 to 17, except that use `hue=Economic Development Status` and set the title of the scatter to `"EPI vs. WRI per Economic Development Status"`. Save the figure as `'scatter_status.png'`

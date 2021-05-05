@@ -60,7 +60,7 @@ Figure 3. OLS Regression Results: EPI vs. Exposure and Vulnerability
 The results show that EPI is negatively correlated to both exposure and vulnerability with EPI coefficients that are both significant at 5% level. Interestingly, OLS regression shows that EPI has a stronger correlation with vulnerability with r = -0.892 than that of exposure with r = -0.188. Although this does not support a causal relationship, the model seem to suggest that addressing environmental sustainability issues cannot do much on risk exposure since it is a function of inherent physical hazard brought by the geographical location of countries. 
 
 ![Combined Scatter Plots](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/to_RESULTS.MD/combined_scatter_region.png)
-Figure 4. a.) WRI Distribution, b.) WRI per Economic Region, and c.) EPI vs. WRI per Economic Region
+Figure 4. a and b) WRI per Ecoomic Region, and c.) EPI vs. WRI per Economic Region
 
 To support this analysis, first we take the case of countries that were rated with the same risk exposure index. Both the United States of America (Global West) and Afghanistan (Southern Asia) were rated 12.99 in terms of exposure but with vulnerability rating of 66.93 and 30.06, repectively, their WRI registered a large gap of 4.79. The same case holds true for Spain (Global West) and Pakistan (Southern Asia). Relative thereto, we also note the large disparity between their EPI scores. The United States has an EPI of 69.3 while Afghanistan was rated 25.5. Thus, nothwithstanding equal footing on risk exposure, we can conclude that better environmental management performance is associated with lower risk vulnerability, and lower disaster risk (WRI).
 
