@@ -4,13 +4,13 @@
 
 ## A. Summary
 
-This script uses `pandas` module of `Python`. The script is aimed at cleaning the data set containing information on the Environmental Performance Index of 180 countries included in the report.
+This script uses `pandas` module of `Python`. The script is aimed at cleaning the data set containing information on the Environmental Performance Index of 180 countries included in the 2020 report.
 
 ## B. Input Data
 
 There is only one input file in this script:
 
-1. The `epi20_raw.csv` file that is downloaded from `https://epi.yale.edu/downloads`. It is a large data set containing the EPI of 180 countries. 
+1. The `epi20_raw.csv` file that is downloaded from `https://epi.yale.edu/downloads`. It is a large data set containing the EPI of 180 countries.
 
 ## C. Deliverables
 
@@ -42,4 +42,6 @@ For reference, the following are the indicator variables used in the 2020 EPI re
 
 9. Set `'iso3'` as index by calling `set_index()` to `epi_clean` using `'iso3'` and `inplace = True` as arguments.
 
-10. Save `epi_clean` as `'epi_clean.csv'` by calling `.to_csv()` to `epi_clean`.
+10. Save `epi_clean` as `'epi_clean.csv'` by calling `.to_csv()` to `epi_clean`. The output file contains the columns: `iso3`, `Economic Region` and `EPI` indicator variables described as follows:
+
+![EPI indicators](https://github.com/jsacoba/pai789_finalproject/blob/main/script3_epi_data/epi_indicators.png)
