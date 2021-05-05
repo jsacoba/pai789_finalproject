@@ -1,4 +1,4 @@
-![](https://github.com/jsacoba/pai789_finalproject/blob/main/script6_mapping/joined_maps.png)
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/joined_maps.png)
 
 # Results and Analysis
 
