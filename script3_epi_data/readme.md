@@ -1,3 +1,5 @@
+![EPI](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/EPI.PNG)
+
 # Script No. 3: Cleaning and Processing Data: Environmental Performance Index (EPI) of Countries
 
 ## A. Summary
