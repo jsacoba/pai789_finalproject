@@ -1,4 +1,5 @@
 ![2020 World Risk Report Image](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/World%20Risk%20Report.PNG)
+Photo credits: `https://weltrisikobericht.de/english/`
 
 # Script No. 1: Joining Data from the World Risk Index (WRI) Report (2016 to 2020)
 

@@ -1,4 +1,5 @@
 ![EPI](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/EPI.PNG)
+Photo credits: `https://epi.yale.edu/downloads`
 
 # Script No. 3: Cleaning and Processing Data: Environmental Performance Index (EPI) of Countries
 
