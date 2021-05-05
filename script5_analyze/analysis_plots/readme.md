@@ -1,4 +1,8 @@
-# ***Script No. 5.3: Density and Scatter Plots***
+
+![Visual](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/visual.jpg)
+Photo credits: `www.google.com`
+
+# Script No. 5.3: Density and Scatter Plots
 
 ## A. Summary
 
