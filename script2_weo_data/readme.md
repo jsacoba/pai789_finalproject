@@ -1,3 +1,5 @@
+![WEO](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/WEO.PNG)
+
 # Script No. 2: Cleaning and Joining Data on Development Status, GDP and Population from the IMF Website
 
 ## A. Summary
