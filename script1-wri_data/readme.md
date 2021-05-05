@@ -98,7 +98,7 @@ There are various input data in this script:
 
 19. Save cleaned data sets. Save the cleaned WRI data set by calling `.to_csv()` to `wri16_to_20`. Use the filename `wri16to20_clean.csv`. Then save the mapping  file by calling `.to_csv()` to `mapping_wri` and use the filename `mapping_wri_clean.csv`. he data cleaned data set contains the following columns:
 
-      `iso3`            - refers to the UN 3-letter alpha code for countries.
+      `iso3`            - refers to the ISO 3-letter alpha code for countries.
 
       `Country`         - country name as reported in the 2020 World Risk Index report.
 
