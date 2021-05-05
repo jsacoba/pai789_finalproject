@@ -1,3 +1,5 @@
+![OLS](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/to_RESULTS.MD/ols.png)
+
 # Script No. 5.1: Analyzing and Visualizing the WRI Distribution
 
 ## A. Summary
