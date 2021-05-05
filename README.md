@@ -84,7 +84,7 @@ Table 3. Top 10 Poorest and Richest Countries According to GDP per capita
 
 It can be gleaned from the table above that richer countries have higher EPIs. This suggests that higher capacity to support environmental sustainability by investing in societal institutions, structures and management (coping and adaptive capacities), can potentially  lower vulnerability risk, hence a lower risk of natural disaster. 
 
-We can also run an analysis that counters this relationship as it could also be the case that countries with less exposure risk [hence, lowe WRI], makes them better off economically.
+We can also run an analysis that counters this relationship as it could also be the case that countries with less exposure risk [hence, lowe WRI], makes them better off economically. Hence, they have better ability to address environmental sustainability issues that further lowers their risk of disaster.
 
 ## Policy Significance
 
