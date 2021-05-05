@@ -14,7 +14,9 @@ This script uses `pandas` module of Python. The script is aimed at:
 
 There are various input files in this script:
 
-1. World Economic Outlook data sets from the IMF webiste `https://www.imf.org/en/Publications/WEO/weo-database/2020/October/select-country-group` (3 files): ***status_raw.csv***, ***gdp_raw.csv***, and ***pop_raw.csv***. The ***status_raw.csv*** file contains information about the economic status of countries. They are classified as : ***Major Advanced Economy***, which are the G7 countries, ***Advanced Economy***, and ***Emerging Market and Developing Economy***.
+1. World Economic Outlook data sets from the IMF webiste `https://www.imf.org/en/Publications/WEO/weo-database/2020/October/select-country-group` (3 files): ***status_raw.csv***, ***gdp_raw.csv***, and ***pop_raw.csv***. When downloading the GDP file, select records for **all countries** and select **Gross domestic product per capita, constant prices** for **2020**  and select **ISO Alpha-3 Code** in the field selector. In a separate download under the same website, extract **population** from the selector for **2016 to 2020 and** select **ISO Alpha-3 Code**.
+
+The ***status_raw.csv*** is a self-created file that contains information about the economic status of countries based from the same website above. Countries are classified as : ***Major Advanced Economy***, which are the G7 countries, ***Advanced Economy***, and ***Emerging Market and Developing Economy***.
 
 2. The mapping file ***mapping_wri_clean.csv***  generated under the ***script1-wri_data*** folder in this repository.
 
@@ -22,7 +24,7 @@ There are various input files in this script:
 
 1. A script called ***join_weo_clean.py***; and
 
-2. A joined file called ***weo_data_clean.csv*** that contains the following columns: `iso3`, `Country`, `Status`, `GDP`, and `Population`. After joining the input files, the output file contains 193 countries.
+2. A joined file called ***weo_data_clean.csv*** that contains the following columns: `iso3`, `Country`, `Status`, `GDP` for 2020, and `Population` from 2016 to 2020. After joining the input files, the output file contains 193 countries.
 
 ## D. Instructions
 
