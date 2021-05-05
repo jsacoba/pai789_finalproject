@@ -1,7 +1,7 @@
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/joined_maps.png)
 
-# Linking Disaster Risk and Environmental Sustainability Management
+# Linking Disaster Risk and Environmental Sustainability
 ## Background
 
 ### The World Risk Index
