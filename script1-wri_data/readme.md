@@ -14,7 +14,7 @@ This script uses `pandas` and `numpy` modules of `Python`. The script is aimed a
 
 There are various input data in this script:
 
-1. WRI files (5 files): ***wri2016_raw.csv***, ***wri2017_raw.csv***, ***wri2018_raw.csv***, ***wri2019_raw.csv*** and ***wri2020_raw.csv***. These were extracted from the ***'Appendix'*** portion of the ***WorldRiskIndex*** reports from 2016 to 2020. Each report contains different number of countries ranked:
+1. WRI files (5 files): ***wri2016_raw.csv***, ***wri2017_raw.csv***, ***wri2018_raw.csv***, ***wri2019_raw.csv*** and ***wri2020_raw.csv***. These were extracted from the ***'Appendix'*** portion of the ***WorldRiskIndex*** reports from 2016 to 2020 which come in `.pdf` format. Each report contains different number of countries ranked:
 
       ***wri2016_raw.csv*** - 171 countries
 
