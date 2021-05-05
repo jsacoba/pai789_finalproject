@@ -1,5 +1,5 @@
 
-![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/disaster_ph.PNG)
+![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/joined_maps.png)
 
 # Linking Disaster Risk and Environmental Sustainability
 ## Background
@@ -41,8 +41,6 @@ This analysis seeks to provide data-driven analysis of the relationship between 
 ## Data Handling and Processing
 
 This analysis used `Python` and `QGIS 3.18` in data cleaning, processing, and visualization. 
-
-![](https://github.com/jsacoba/pai789_finalproject/blob/main/aes-folder/joined_maps.png)
 
 ## Results and Analysis
 
