@@ -9,6 +9,7 @@
 In 2020, the Bündnis Entwicklung Hilft, in collaboration with Ruhr University Bochum – Institute for International Law of Peace and Armed Conflict (IFHV), ranked 181 countries according to their risk of becoming the victim of a disaster resulting from an extreme natural event. Topping the list is the Pacific island of Vanuatu with a World Risk Index (WRI) of 49.79, while the Greatest Middle East country Qatar has the lowest risk of 0.31.
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script1-wri_data/wri_components.PNG)
+Figure 1. World Risk Index Components
 Source: The 2020 WorldRiskIndex Report
 
 As defined by the report, the WRI is the interaction of a country's risk exposure and vulnerability. Exposure pertains to the risk faced by various entities such as communities, resources, infrastructure, production, goods, services or ecosystems to physical hazards such as earthquakes, storms, floods, droughts, tsunamis and sea-level rise (Welle, Torsten & Birkmann, Joern, 2015).  On the other hand, vulnerability refers to the mean of the following three sub-components:
@@ -24,6 +25,7 @@ As defined by the report, the WRI is the interaction of a country's risk exposur
 The 2020 Environmental Performance Index (EPI) report ranked 180 countries according to their performance in addressing sustainability issues and environmental challenges that they face. It includes 32 performance metrics under 11 issue categories. The interaction of these indicator variables are summed up in two main EPI components: environmental health and ecosystem vitality. The report puts: **"These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future."**
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script3_epi_data/epi_components.PNG)
+Figure 2. Environmental Performance Index Components
 Source: The 2020 EPI Report
 
 Among the countries included in the report, Denmark was ranked first with an EPI of 82.5 while Liberia ranked last with an EPI of 22.6.
@@ -53,12 +55,12 @@ The results show that a country's performance in addressing environmental sustai
 Because WRI is a function of the inherent risk (exposure) brought by physical hazards given the geographic location of a country and its societal framework and structural characteristics (vulnerability), we extend our analysis to determine and dissect which of these WRI components is correlated with EPI.
 
 ![OLS Exposure and Vulnerability](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/to_RESULTS.MD/ols.png)
-Figure 1. OLS Regression Results: EPI vs. Exposure and Vulnerability
+Figure 3. OLS Regression Results: EPI vs. Exposure and Vulnerability
 
 The results show that EPI is negatively correlated to both exposure and vulnerability with EPI coefficients that are both significant at 5% level. Interestingly, OLS regression shows that EPI has a stronger correlation with vulnerability with r = -0.892 than that of exposure with r = -0.188. Although this does not support a causal relationship, the model seem to suggest that addressing environmental sustainability issues cannot do much on risk exposure since it is a function of inherent physical hazard brought by the geographical location of countries. 
 
 ![Combined Scatter Plots](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/to_RESULTS.MD/combined_scatter_region.png)
-Figure 2. a.) WRI Distribution, b.) WRI per Economic Region, and c.) EPI vs. WRI per Economic Region
+Figure 4. a.) WRI Distribution, b.) WRI per Economic Region, and c.) EPI vs. WRI per Economic Region
 
 To support this analysis, first we take the case of countries that were rated with the same risk exposure index. Both the United States of America (Global West) and Afghanistan (Southern Asia) were rated 12.99 in terms of exposure but with vulnerability rating of 66.93 and 30.06, repectively, their WRI registered a large gap of 4.79. The same case holds true for Spain (Global West) and Pakistan (Southern Asia). Relative thereto, we also note the large disparity between their EPI scores. The United States has an EPI of 69.3 while Afghanistan was rated 25.5. Thus, nothwithstanding equal footing on risk exposure, we can conclude that better environmental management performance is associated with lower risk vulnerability, and lower disaster risk (WRI).
 
