@@ -11,11 +11,11 @@ analyze = pd.read_csv('combined_clean.csv')
 
 # 3. Generate and print correlation coefficient (rounded to three decimal places).
 
-print('\Correlation Coefficient, r (WRI vs. EPI):', 
+print('\nCorrelation Coefficient, r (WRI vs. EPI):', 
       round(analyze['2020'].corr(analyze['EPI.new']), 3))
-print('\Correlation Coefficient, r (Exposure vs. EPI):', 
+print('Correlation Coefficient, r (Exposure vs. EPI):', 
       round(analyze['Exposure'].corr(analyze['EPI.new']), 3))
-print('\Correlation Coefficient, r (Vulnerability vs. EPI):', 
+print('Correlation Coefficient, r (Vulnerability vs. EPI):', 
       round(analyze['Vulnerability'].corr(analyze['EPI.new']), 3), '\n')
 
 # A. Regress WRI and EPI.

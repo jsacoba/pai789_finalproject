@@ -3,8 +3,8 @@
 Dep. Variable:               Exposure   R-squared:                       0.035
 Model:                            OLS   Adj. R-squared:                  0.030
 Method:                 Least Squares   F-statistic:                     7.439
-Date:                Wed, 28 Apr 2021   Prob (F-statistic):            0.00708
-Time:                        01:43:54   Log-Likelihood:                -629.74
+Date:                Wed, 05 May 2021   Prob (F-statistic):            0.00708
+Time:                        20:39:32   Log-Likelihood:                -629.74
 No. Observations:                 166   AIC:                             1263.
 Df Residuals:                     164   BIC:                             1270.
 Df Model:                           1                                         
