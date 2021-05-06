@@ -9,8 +9,7 @@
 In 2020, the Bündnis Entwicklung Hilft, in collaboration with Ruhr University Bochum – Institute for International Law of Peace and Armed Conflict (IFHV), ranked 181 countries according to their risk of becoming the victim of a disaster resulting from an extreme natural event. Topping the list is the Pacific island of Vanuatu with a World Risk Index (WRI) of 49.79, while the Greatest Middle East country Qatar has the lowest risk of 0.31.
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script1-wri_data/wri_components.PNG)
-Figure 1. World Risk Index Components
-Source: The 2020 WorldRiskIndex Report
+Figure 1. World Risk Index Components, ***The 2020 WorldRiskIndex Report***
 
 As defined by the report, the WRI is the interaction of a country's risk exposure and vulnerability. Exposure pertains to the risk faced by various entities such as communities, resources, infrastructure, production, goods, services or ecosystems to physical hazards such as earthquakes, storms, floods, droughts, tsunamis and sea-level rise (Welle, Torsten & Birkmann, Joern, 2015).  On the other hand, vulnerability refers to the mean of the following three sub-components:
 
@@ -25,8 +24,7 @@ As defined by the report, the WRI is the interaction of a country's risk exposur
 The 2020 Environmental Performance Index (EPI) report ranked 180 countries according to their performance in addressing sustainability issues and environmental challenges that they face. It includes 32 performance metrics under 11 issue categories. The interaction of these indicator variables are summed up in two main EPI components: environmental health and ecosystem vitality. The report puts: **"These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future."**
 
 ![](https://github.com/jsacoba/pai789_finalproject/blob/main/script3_epi_data/epi_components.PNG)
-Figure 2. Environmental Performance Index Components
-Source: The 2020 EPI Report
+Figure 2. Environmental Performance Index Components, ***The 2020 EPI Report***
 
 Among the countries included in the report, Denmark was ranked first with an EPI of 82.5 while Liberia ranked last with an EPI of 22.6.
 
