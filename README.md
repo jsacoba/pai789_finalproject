@@ -72,7 +72,7 @@ Second, let us take the case of advanced economies or the G7 countries namely, J
 ![G7 Countries](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/to_RESULTS.MD/japan_highlight.png)
 Table 2. Major Advanced Economies
 
-As observed from the table above, G7 countries performed well in environmental sustainability and management as evidenced by their high EPIs. Interestingly, while the 6 of them have on the average kept their WRI low, Japan did not. Dissecting the components of WRI would suggest that while Japan have maintained its risk vulnerability low, its being geographically located in Asia Pacific where most typhoons are formed and active volcanoes (destrcutive earthquakes) are located, it tallied the highest WRI of 38.67 among these major advanced economies.
+As observed from the table above, G7 countries performed well in environmental sustainability and management as evidenced by their high EPIs. Interestingly, while the 6 of them have on the average kept their WRI low, Japan did not. Dissecting the components of WRI would suggest that while Japan have maintained its risk vulnerability low, its being geographically located in Asia Pacific where most typhoons are formed and active volcanoes (destructive earthquakes) are located, it tallied the highest WRI of 38.67 among these major advanced economies.
 
 ![Japan Outlier](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/to_RESULTS.MD/japan_scatter.png)
 Figure 5. EPI vs. WRI per Economic Region
