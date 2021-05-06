@@ -46,7 +46,9 @@ This project used `Python` and `QGIS 3.18` in data cleaning, processing, and vis
 
 ### 1. Performance in environmental sustainability management is negatively correlated with the risk of natural disaster.
 
-The results show that a country's performance in addressing environmental sustainability issues is associated with its risk of becoming a victim of an extreme natural event (disaster). Linear regression suggests that EPI and WRI are negatively correlated with a correlation coefficient of -0.477. This suggests that on the average, a one-point increase in EPI is associated with a decrease in WRI by 0.1826 points. With a p-value close to zero, the coefficient of EPI is significant at 5% level [and even at 1% level]. Finally, the results show that around 22.8% of variation in WRI is explained by EPI. 
+The results show that a country's performance in addressing environmental sustainability issues is associated with its risk of becoming a victim of an extreme natural event (disaster). Linear regression suggests that EPI and WRI are negatively correlated with a correlation coefficient of -0.477. This suggests that on the average, a one-point increase in EPI is associated with a decrease in WRI by 0.1826 points. With a p-value close to zero, the coefficient of EPI is significant at 5% level [and even at 1% level]. Finally, the results show that around 22.8% of variation in WRI is explained by EPI.
+
+![corr EPI vs WRI](https://github.com/jsacoba/pai789_finalproject/blob/main/script5_analyze/to_RESULTS.MD/EPI%20vs%20WRI%20corr.PNG)
 
 ### 2. EPI has a stronger correlation with a country's risk vulnerability than its exposure.
 
